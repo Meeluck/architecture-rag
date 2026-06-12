@@ -1,0 +1,26 @@
+{
+  "vector_db": "FAISS",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "indexes": [
+    {
+      "name": "chunks_filtered_v1",
+      "index_type": "IndexIDMap(IndexFlatIP)",
+      "metric": "inner_product_on_normalized_embeddings",
+      "embeddings_path": "Task3/embeddings/chunks_filtered_v1_embeddings.npy",
+      "metadata_path": "Task3/embeddings/chunks_filtered_v1_metadata.json",
+      "index_path": "Task3/faiss_index/chunks_filtered_v1.index",
+      "vectors": 1540,
+      "dimension": 384
+    },
+    {
+      "name": "chunks_filtered_v2",
+      "index_type": "IndexIDMap(IndexFlatIP)",
+      "metric": "inner_product_on_normalized_embeddings",
+      "embeddings_path": "Task3/embeddings/chunks_filtered_v2_embeddings.npy",
+      "metadata_path": "Task3/embeddings/chunks_filtered_v2_metadata.json",
+      "index_path": "Task3/faiss_index/chunks_filtered_v2.index",
+      "vectors": 1555,
+      "dimension": 384
+    }
+  ]
+}
