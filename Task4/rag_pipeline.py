@@ -16,20 +16,13 @@ from sentence_transformers import SentenceTransformer
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-# В задании 3 индекс строился именно этой моделью. Для RAG важно использовать
-# тот же энкодер на этапе запроса, иначе векторы запроса и документов окажутся
-# в разных векторных пространствах и FAISS будет искать бессмысленные совпадения.
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-# Используем очищенную базу и вторую версию чанкинга: она убирает wiki-шум из
-# Task2/knowledge_base_filtered и режет текст через RecursiveCharacterTextSplitter.
 DEFAULT_INDEX_PATH = REPO_ROOT / "Task3" / "faiss_index" / "chunks_filtered_v2.index"
 DEFAULT_METADATA_PATH = (
     REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v2_metadata.json"
 )
 
-# Генерация ответа выполняется локально через Ollama. Модель можно заменить
-# переменной окружения OLLAMA_MODEL или CLI-аргументом --model.
 DEFAULT_LLM_MODEL = "gemma3:4b"
 DEFAULT_OLLAMA_URL = "http://localhost:11434/api/chat"
 
@@ -72,9 +65,6 @@ Sources: [1], [2]
 """
 
 
-# Few-shot examples are intentionally written in English and use facts that are
-# present in the local synthetic knowledge base. They teach the model the target
-# answer shape without becoming additional retrieval evidence for a new question.
 FEW_SHOT_EXAMPLES = """Few-shot examples:
 
 Example 1
@@ -150,7 +140,7 @@ class RetrievedChunk:
 
 @dataclass(frozen=True)
 class RagAnswer:
-    """Итоговый результат RAG-цепочки: ответ модели и использованный контекст."""
+    """Итоговый результат RAG-цепочки."""
 
     query: str
     answer: str
@@ -159,9 +149,9 @@ class RagAnswer:
 
 
 class RagPipeline:
-    """Прозрачная реализация RAG без LangChain.
+    """Реализация RAG.
 
-    Цепочка намеренно разбита на маленькие методы, чтобы было видно каждый шаг:
+    Цепочка намеренно разбита на маленькие методы:
     загрузка индекса, кодирование пользовательского запроса, поиск в FAISS,
     сборка контекста, сборка prompt и вызов локальной LLM через Ollama API.
     """
@@ -196,8 +186,7 @@ class RagPipeline:
         self.metadata = self._load_metadata(metadata_path)
         self._validate_index_and_metadata()
 
-        # Модель эмбеддингов грузится один раз при старте пайплайна. В REPL это
-        # сильно дешевле, чем создавать SentenceTransformer на каждый вопрос.
+        # Модель эмбеддингов грузится один раз при старте пайплайна.
         self.embedding_model = SentenceTransformer(embedding_model_name)
 
     @staticmethod
@@ -213,7 +202,7 @@ class RagPipeline:
         return json.loads(path.read_text(encoding="utf-8"))
 
     def _validate_index_and_metadata(self) -> None:
-        """Проверяем главный инвариант: id в FAISS должен указывать на metadata."""
+        """Проверяем: id в FAISS должен указывать на metadata."""
 
         if self.index.ntotal != len(self.metadata):
             raise ValueError(
@@ -222,7 +211,7 @@ class RagPipeline:
             )
 
     def embed_query(self, query: str) -> np.ndarray:
-        """Преобразует пользовательский вопрос в нормализованный float32-вектор."""
+        """Преобразует пользовательский вопрос в вектор."""
 
         query_embedding = self.embedding_model.encode(
             [query],
@@ -235,11 +224,7 @@ class RagPipeline:
         return query_embedding.astype("float32")
 
     def retrieve(self, query: str) -> list[RetrievedChunk]:
-        """Ищет top_k ближайших чанков в FAISS по cosine similarity.
-
-        В задании 3 эмбеддинги нормализованы, а индекс построен как IndexFlatIP.
-        Inner product для нормализованных векторов эквивалентен cosine similarity.
-        """
+        """Ищет top_k ближайших чанков в FAISS по cosine similarity."""
 
         query_embedding = self.embed_query(query)
         scores, ids = self.index.search(query_embedding, self.top_k)
@@ -321,9 +306,7 @@ Write the answer using the rules and exact output format from the system prompt.
             ],
             "stream": False,
             # Qwen3 и некоторые другие модели Ollama умеют отдавать native
-            # reasoning отдельно в message.thinking. Это не то же самое, что
-            # короткий пользовательский CoT-блок из prompt, поэтому по умолчанию
-            # native thinking выключен и не съедает лимит num_predict.
+            # reasoning отдельно в message.thinking.
             "think": self.think,
             "options": {
                 "temperature": self.temperature,
@@ -335,7 +318,7 @@ Write the answer using the rules and exact output format from the system prompt.
         return self._extract_ollama_message(response)
 
     def _post_ollama_chat(self, payload: dict[str, Any]) -> dict[str, Any]:
-        """Выполняет POST в локальный Ollama API без дополнительных SDK."""
+        """Выполняет запрос в локальный Ollama API"""
 
         request = urllib.request.Request(
             self.ollama_url,
@@ -390,7 +373,7 @@ Write the answer using the rules and exact output format from the system prompt.
 
 
 def print_sources(chunks: list[RetrievedChunk]) -> None:
-    """Печатает найденные источники отдельно от ответа модели для отладки."""
+    """Выводи найденные источники отдельно от ответа модели для отладки."""
 
     if not chunks:
         print("\nNo chunks passed the score threshold.")
