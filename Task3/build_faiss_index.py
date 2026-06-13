@@ -9,23 +9,11 @@ OUTPUT_DIR = REPO_ROOT / "Task3" / "faiss_index"
 
 INDEX_CONFIGS = [
     # {
-    #     "name": "chunks_v1",
-    #     "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v1_embeddings.npy",
-    #     "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v1_metadata.json",
-    #     "index_path": OUTPUT_DIR / "chunks_v1.index",
-    # },
-    # {
     #     "name": "chunks_v2",
     #     "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v2_embeddings.npy",
     #     "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v2_metadata.json",
     #     "index_path": OUTPUT_DIR / "chunks_v2.index",
     # },
-    {
-        "name": "chunks_filtered_v1",
-        "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v1_embeddings.npy",
-        "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v1_metadata.json",
-        "index_path": OUTPUT_DIR / "chunks_filtered_v1.index",
-    },
     {
         "name": "chunks_filtered_v2",
         "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v2_embeddings.npy",

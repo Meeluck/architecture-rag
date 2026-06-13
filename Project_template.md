@@ -211,7 +211,7 @@ pip install -r Task2/requirements.txt
     python Task2/fandom_html_to_markdown.py \
     --url "https://gameofthrones.fandom.com/wiki/Jon_Snow" \
     --out-dir Task2/knowledge_base_raw
-    ```
+    ``
 
 2. Сформировать файл с адресами страниц
 
@@ -320,6 +320,209 @@ python Task2/apply_terms_map.py \
 
 ## Задание 3. Создание векторного индекса базы знаний
 
+### 1. Выбранная модель для эмбеддингов
+
+Для построения векторного индекса используется модель `sentence-transformers/all-MiniLM-L6-v2`.
+
+Основные параметры:
+
+- модель: `sentence-transformers/all-MiniLM-L6-v2`;
+- репозиторий: <https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2>;
+- тип модели: локальная Sentence-Transformers модель для построения эмбеддингов;
+- размер эмбеддинга: 384;
+- способ запуска: локально через библиотеку `sentence-transformers`;
+- планируемая векторная база: FAISS.
+
+Причины выбора `all-MiniLM-L6-v2`:
+
+- модель компактная и подходит для MVP;
+- эмбеддинги можно считать локально, не отправляя документы во внешний API;
+- модель быстро работает на CPU и не требует обязательного GPU;
+- размерность 384 уменьшает объем индекса и ускоряет поиск;
+- модель хорошо интегрируется с `sentence-transformers`, LangChain и FAISS.
+
+### 2. Преобразование текстов в чанки
+
+Для разбиения базы  добавлен скрипт `Task3/chunk_texts_v2.py`.
+
+Она использует `RecursiveCharacterTextSplitter` из LangChain. Зависимость для запуска указана в `Task3/requirements.txt`:
+
+```bash
+python3 -m pip install -r Task3/requirements.txt
+```
+
+Логика:
+
+1. Markdown-файлы из `Task2/knowledge_base` и `Task2/knowledge_base_filtered` сначала делятся на логические секции по заголовкам.
+2. Внутри каждой секции применяется `RecursiveCharacterTextSplitter`.
+3. Для splitter задан word-based лимит через `length_function=count_words`.
+4. Размер чанка: до 300 слов.
+5. Overlap между соседними чанками: 40 слов.
+6. В каждый чанк добавляется контекст документа и секции.
+7. В JSON сохраняются метаданные источника, секции и смещение чанка внутри секции.
+
+Результат:
+
+- файл с чанками: `Task3/chunks_v2.json`;
+- splitter: `RecursiveCharacterTextSplitter`;
+- количество обработанных Markdown-файлов: 36;
+- количество созданных чанков: 1649;
+- минимальный размер чанка: 3 слова;
+- максимальный размер чанка: 300 слов;
+- общий объем текста в чанках: 321539 слов.
+
+### 3. Генерация эмбеддингов
+
+На этом шаге для двух вариантов чанков были сгенерированы эмбеддинги с помощью модели `sentence-transformers/all-MiniLM-L6-v2`. Реализация `generate_embeddings.py`
+
+Входные файлы:
+
+- `Task3/chunks_v2.json` - вариант чанков, созданный через `RecursiveCharacterTextSplitter`.
+- `Task3/chunks_filtered_v2.json` -вариант чанков, созданный через `RecursiveCharacterTextSplitter` на основе  данных, в которых были убраны мусорные разделы
+
+Выходные файлы:
+
+- `Task3/embeddings/chunks_v2_embeddings.npy` - эмбеддинги для `chunks_v2.json`;
+- `Task3/embeddings/chunks_v2_metadata.json` - метаданные для `chunks_v2.json`.
+- `Task3/embeddings/chunks_filtered_v2_embeddings.npy` - эмбеддинги для `chunks_filtered_v2.json`;
+- `Task3/embeddings/chunks_filtered_v2_metadata.json` - метаданные для `chunks_filtered_v2.json`;
+
+#### Пошаговая инструкция
+
+1. Создать и активировать виртуальное окружение:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Установить зависимости:
+
+```bash
+python3 -m pip install --upgrade pip
+python3 -m pip install sentence-transformers numpy tqdm
+```
+
+3. Проверить наличие файлов с чанками:
+
+```bash
+ls -lh Task3/chunks_v2.json Task3/chunks_filtered_v2.json
+```
+
+4. Запустить генерацию эмбеддингов:
+
+```bash
+python3 Task3/generate_embeddings.py
+```
+
+Скрипт `Task3/generate_embeddings.py` выполняет следующие действия:
+
+1. Загружает модель `sentence-transformers/all-MiniLM-L6-v2`.
+2. Читает тексты чанков из `Task3/chunks_v2.json` и `Task3/chunks_filtered_v2.json`.
+3. Для каждого чанка берет поле `text`, потому что в нем уже есть основной текст и контекст документа/секции.
+4. Генерирует эмбеддинги батчами по 32.
+5. Нормализует эмбеддинги через `normalize_embeddings=True`, чтобы далее было удобно использовать cosine similarity или inner product в FAISS.
+6. Сохраняет матрицу эмбеддингов в формате `.npy` с типом `float32`.
+7. Отдельно сохраняет JSON с метаданными чанков: `chunk_id`, источник, заголовок документа, секция, размер чанка и текст.
+
+#### Проверка результата
+
+После генерации нужно проверить, что количество эмбеддингов совпадает с количеством записей в metadata:
+
+```bash
+python3 - <<'PY'
+import json
+import numpy as np
+
+pairs = [
+    (
+        "Task3/embeddings/chunks_v2_embeddings.npy",
+        "Task3/embeddings/chunks_v2_metadata.json",
+    ),
+    (
+        "Task3/embeddings/chunks_filtered_v2_embeddings.npy",
+        "Task3/embeddings/chunks_filtered_v2_metadata.json",
+    ),
+]
+
+for embeddings_path, metadata_path in pairs:
+    embeddings = np.load(embeddings_path)
+    metadata = json.load(open(metadata_path, encoding="utf-8"))
+    print(embeddings_path)
+    print("embeddings shape:", embeddings.shape)
+    print("metadata items:", len(metadata))
+    print("ok:", embeddings.shape[0] == len(metadata))
+PY
+```
+
+### 4. Создание индекса в FAISS
+
+Для векторного поиска были созданы два отдельных FAISS-индекса:
+
+- `Task3/faiss_index/chunks_v2.index` - индекс для эмбеддингов первого варианта чанков;
+- `Task3/faiss_index/chunks_filtered_v2.index` - индекс для эмбеддингов второго варианта чанков;
+
+Индекс строится скриптом `Task3/build_faiss_index.py`.
+
+#### Почему выбран `IndexFlatIP`
+
+Для индекса используется схема `IndexIDMap(IndexFlatIP)`:
+
+- `IndexFlatIP` выполняет точный поиск по inner product;
+- `IndexIDMap` позволяет явно задать id для каждого вектора;
+- id в FAISS совпадает с позицией записи в metadata JSON;
+- эмбеддинги заранее нормализованы через `normalize_embeddings=True`, поэтому inner product между нормализованными векторами можно использовать как cosine similarity.
+
+#### Пошаговое создание индекса
+
+1. Установить FAISS:
+
+```bash
+python3 -m pip install faiss-cpu
+```
+
+2. Проверить, что эмбеддинги и metadata уже существуют:
+
+```bash
+ls -lh Task3/embeddings/chunks_v2_embeddings.npy
+ls -lh Task3/embeddings/chunks_v2_metadata.json
+ls -lh Task3/embeddings/chunks_filtered_v2_embeddings.npy
+ls -lh Task3/embeddings/chunks_filtered_v2_metadata.json
+```
+
+3. Запустить построение индексов:
+
+```bash
+python3 Task3/build_faiss_index.py
+```
+
+Скрипт выполняет следующие действия:
+
+1. Загружает `.npy`-файл с эмбеддингами.
+2. Загружает соответствующий metadata JSON.
+3. Проверяет, что количество векторов совпадает с количеством записей metadata.
+4. Определяет размерность эмбеддинга: `384`.
+5. Создает `faiss.IndexFlatIP(384)`.
+6. Оборачивает его в `faiss.IndexIDMap`.
+7. Добавляет векторы с id от `0` до `N - 1`.
+8. Сохраняет индекс в `.index`-файл.
+
+#### Проверка индекса
+
+После создания индексов нужно убедиться, что FAISS может прочитать файлы:
+
+```bash
+python3 - <<'PY'
+import faiss
+
+for path in [
+    "Task3/faiss_index/chunks_v2.index",
+    "Task3/faiss_index/chunks_filtered_v2.index",
+]:
+    index = faiss.read_index(path)
+    print(path, "ntotal:", index.ntotal, "dimension:", index.d)
+PY
+```
 
 ---
 

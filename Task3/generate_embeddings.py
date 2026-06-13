@@ -10,20 +10,10 @@ MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 INPUTS = [
     # {
-    #     "chunks_path": REPO_ROOT / "Task3" / "chunks.json",
-    #     "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v1_embeddings.npy",
-    #     "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v1_metadata.json",
-    # },
-    # {
     #     "chunks_path": REPO_ROOT / "Task3" / "chunks_v2.json",
     #     "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v2_embeddings.npy",
     #     "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v2_metadata.json",
     # },
-    {
-        "chunks_path": REPO_ROOT / "Task3" / "chunks_filtered_v1.json",
-        "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v1_embeddings.npy",
-        "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "build_faiss_indexchunks_filtered_v1_metadata.json",
-    },
     {
         "chunks_path": REPO_ROOT / "Task3" / "chunks_filtered_v2.json",
         "embeddings_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v2_embeddings.npy",

@@ -11,19 +11,9 @@ MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 INDEXES = [
     {
-        "name": "chunks_v1",
-        "index_path": REPO_ROOT / "Task3" / "faiss_index" / "chunks_v1.index",
-        "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v1_metadata.json",
-    },
-    {
         "name": "chunks_v2",
         "index_path": REPO_ROOT / "Task3" / "faiss_index" / "chunks_v2.index",
         "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_v2_metadata.json",
-    },
-    {
-        "name": "chunks_filtered_v1",
-        "index_path": REPO_ROOT / "Task3" / "faiss_index" / "chunks_filtered_v1.index",
-        "metadata_path": REPO_ROOT / "Task3" / "embeddings" / "chunks_filtered_v1_metadata.json",
     },
     {
         "name": "chunks_filtered_v2",
