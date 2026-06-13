@@ -15,9 +15,6 @@ DEFAULT_REPORT_PATH = REPO_ROOT / "Task2" / "filter_report.json"
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 TABLE_DIVIDER_RE = re.compile(r"^\|\s*:?-{3,}:?\s*\|\s*:?-{3,}:?\s*\|?\s*$")
 
-# These sections are useful on a wiki page, but they add noise to retrieval:
-# galleries contain image captions, references are often empty or technical, and
-# external links repeatedly mention page names without adding answerable facts.
 REMOVED_SECTION_TITLES = {
     "external links",
     "gallery",
@@ -31,8 +28,6 @@ NOTICE_PHRASES = (
 
 
 def normalize_heading_title(raw_title: str) -> str:
-    """Normalize a Markdown heading so it can be compared reliably."""
-
     title = raw_title.strip()
     title = re.sub(r"[*_`{}[\]]", "", title)
     title = re.sub(r"\s+", " ", title)
@@ -40,20 +35,11 @@ def normalize_heading_title(raw_title: str) -> str:
 
 
 def contains_wiki_notice(line: str) -> bool:
-    """Return True when a line belongs to the wiki warning notice."""
-
     normalized = re.sub(r"\s+", " ", line.casefold())
     return any(phrase in normalized for phrase in NOTICE_PHRASES)
 
 
 def filter_markdown(markdown: str) -> tuple[str, dict]:
-    """Remove noisy sections and wiki notices from one Markdown document.
-
-    The function preserves the rest of the document as-is. Section removal is
-    heading-aware: when "## External links" is removed, all lines under it are
-    skipped until the next heading with the same or higher level.
-    """
-
     lines = markdown.splitlines()
     filtered_lines: list[str] = []
     removed_sections: Counter[str] = Counter()
@@ -91,9 +77,6 @@ def filter_markdown(markdown: str) -> tuple[str, dict]:
             removed_lines += 1
             i += 1
 
-            # The warning is stored as a tiny Markdown table. Remove the divider
-            # row and one following blank line so the remaining section text is
-            # not separated by an empty table shell.
             if i < len(lines) and TABLE_DIVIDER_RE.match(lines[i]):
                 removed_lines += 1
                 i += 1
@@ -118,7 +101,6 @@ def filter_markdown(markdown: str) -> tuple[str, dict]:
 
 
 def filter_knowledge_base(source_dir: Path, output_dir: Path) -> dict:
-    """Filter every Markdown file in the knowledge base."""
 
     if not source_dir.exists():
         raise FileNotFoundError(f"Source directory does not exist: {source_dir}")

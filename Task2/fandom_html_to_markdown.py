@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""Download Fandom pages and convert article HTML to clean Markdown.
-
-The script is tuned for gameofthrones.fandom.com, but it should also work for
-most MediaWiki/Fandom pages that keep article text in `.mw-parser-output`.
-"""
 
 from __future__ import annotations
 

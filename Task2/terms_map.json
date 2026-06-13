@@ -6,10 +6,7 @@
     "notes": [
       "Character replacements use Russian-history-inspired surnames in Latin transliteration.",
       "Place replacements use football stadium names, host cities, or nearby districts.",
-      "Event replacements use stadium-themed event names.",
-      "Other terms are included because they are highly recognizable and should also be masked for a fair RAG test.",
-      "Character map expanded from got_cast_characters.json cast extraction.",
-      "Series and season labels are masked to remove direct Game of Thrones references."
+      "Event replacements use stadium-themed event names."
     ]
   },
   "characters": {

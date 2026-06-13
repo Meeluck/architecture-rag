@@ -166,6 +166,163 @@
 
 ---
 
+## Задание 2. Подготовка базы знаний
+
+**1. Выберите предметную область**
+**2. Скачайте и очистите тексты**
+**3. Замените ключевые термины**
+**4. Сохраните уникальную базу**
+
+**Результат**
+
+По итогу задания у вас должно получиться:
+
+- Папка с 30+ уникальными документами (`*.txt`, `*.md`, `*.jsonl`).
+- Скрипт или описание логики подмены терминов.
+- Словарь замен (`terms_map.json`) и краткое пояснение к нему: какую вселенную вы взяли и как заменили.
+- Финальная база, которую невозможно «угадывать» по памяти модели.
+
+---
+
+### 1.Предметная область
+
+За основу была взята вселенная "Игры престолов" `gameofthrones.fandom.com`.
+
+### 2. Подготовка данных
+
+#### Получение сырых данных
+
+Необходимо установить зависимости
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r Task2/requirements.txt
+```
+
+`fandom_html_to_markdown.py` конвертирует html страницу в markdown файл, для удобства разбиения на чанки.
+
+Получать информацию можно двумя способами, запустим скрипт `fandom_html_to_markdown.py`. 
+
+1. Самостоятельно указывать адрес страницы, которую нужно стянуть
+    Пример запуска для одной страницы
+
+    ```bash
+    python Task2/fandom_html_to_markdown.py \
+    --url "https://gameofthrones.fandom.com/wiki/Jon_Snow" \
+    --out-dir Task2/knowledge_base_raw
+    ```
+
+2. Сформировать файл с адресами страниц
+
+    Файл `Task2/got_urls.txt` содержит 36 страниц: персонажи, дома, организации, локации, события и объекты.
+
+    ```bash
+    python Task2/fandom_html_to_markdown.py \
+    --url-file Task2/got_urls.txt \
+    --out-dir Task2/knowledge_base_raw \
+    --sleep 3
+    ```
+
+#### Извлечение сущностей для будущих замен
+
+После подготовки Markdown-файлов можно собрать список терминов, которые нужно будет заменить на вымышленные имена, места и события.
+
+Файл скрипта:
+
+```text
+Task2/extract_entities_from_markdown.py
+```
+
+Запуск:
+
+```bash
+python Task2/extract_entities_from_markdown.py \
+  --input-dir Task2/knowledge_base_raw \
+  --out-json Task2/entities.json \
+  --out-md Task2/entities.md
+```
+
+На выходе будут два файла:
+
+- `Task2/entities.json` - структурированный список для последующей генерации `terms_map.json`;
+- `Task2/entities.md` - человекочитаемый отчёт, который удобно быстро проверить руками.
+
+Скрипт выделяет четыре группы:
+
+- `characters` - персонажи;
+- `places` - места;
+- `events` - события;
+- `other_terms` - дома, организации, артефакты и прочие важные термины, которые тоже желательно заменить.
+
+#### Извлечение списка героев со страницы сериала
+
+Файл скрипта:
+
+```text
+Task2/extract_cast_from_fandom.py
+```
+
+Запуск для всего раздела `Cast`:
+
+```bash
+python Task2/extract_cast_from_fandom.py \
+  --url "https://gameofthrones.fandom.com/wiki/Game_of_Thrones#Retainers_at_Winterfell" \
+  --out-json Task2/got_cast_characters.json \
+  --out-md Task2/got_cast_characters.md
+```
+
+#### Маппинг замен
+
+Файл с подготовленными заменами:
+
+```text
+Task2/terms_map.json
+```
+
+Внутри есть тематические группы и общий `flat_map`, который удобно использовать в следующем скрипте для замены текста.
+
+#### Применение маппинга к Markdown-файлам
+
+Файл скрипта:
+
+```text
+Task2/apply_terms_map.py
+```
+
+Запуск:
+
+```bash
+python Task2/apply_terms_map.py \
+  --input-dir Task2/knowledge_base_raw \
+  --terms-map Task2/terms_map.json \
+  --out-dir Task2/knowledge_base \
+  --report Task2/replacement_report.json \
+  --overwrite
+```
+
+Скрипт:
+
+- читает исходные `.md` из `knowledge_base_raw`;
+- применяет `flat_map` из `terms_map.json`;
+- заменяет сначала длинные термины, потом короткие;
+- сохраняет результат в `knowledge_base`;
+- адаптирует имена файлов по новому заголовку документа;
+- создаёт `replacement_report.json` со статистикой замен.
+
+#### Фильтрация лишних разделов
+
+Только после маппинга заметил секции, которые не несут полезной информации: External links, Gallery, wiki notices вроде This section contains a considerable amount of unverified information.
+
+Поэтому был сделан новый скрипт фильтрации `filter_knowledge_base.py`, который убирает мусорные разделы и сохраняет очищенные статьи в новую директорию `knowledge_base_filtered`.
+
+---
+
+## Задание 3. Создание векторного индекса базы знаний
+
+
+---
+
 ## Сдача задания
 
 1. Соберите Docker‑образ бота. Минимальный Dockerfile + docker compose.yml (бот + FAISS).

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Extract replacement candidates from cleaned Markdown knowledge-base files."""
 
 from __future__ import annotations
 
