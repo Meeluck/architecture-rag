@@ -524,6 +524,33 @@ for path in [
 PY
 ```
 
+### 5. Тестовый поиск
+
+Для проверки качества поиска используется скрипт `Task3/search_faiss.py`.
+
+Он выполняет следующие действия:
+
+1. Загружает модель `sentence-transformers/all-MiniLM-L6-v2`.
+2. Загружает оба FAISS-индекса.
+3. Загружает metadata для каждого индекса.
+4. Кодирует тестовый пользовательский запрос той же embedding-моделью.
+5. Нормализует embedding запроса.
+6. Выполняет `index.search(query_embedding, k=5)`.
+7. По найденным id достает записи из metadata.
+8. Печатает `score`, `chunk_id`, `source_path`, `document_title`, `section_path` и фрагмент текста.
+
+Запуск:
+
+```bash
+python3 Task3/search_faiss.py
+```
+
+Тестовые запросы:
+
+- `Who restored House Volkonsky after the Anfield Derby?`
+- `What happened to Daria Romanova in Wembley?`
+- `Where is Maracana located?`
+
 ---
 
 ## Сдача задания
