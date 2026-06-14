@@ -19,7 +19,7 @@
       "embeddings_path": "Task3/embeddings/chunks_filtered_v2_embeddings.npy",
       "metadata_path": "Task3/embeddings/chunks_filtered_v2_metadata.json",
       "index_path": "Task3/faiss_index/chunks_filtered_v2.index",
-      "vectors": 1555,
+      "vectors": 1556,
       "dimension": 384
     }
   ]
