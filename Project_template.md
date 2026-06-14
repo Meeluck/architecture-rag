@@ -211,7 +211,7 @@ pip install -r Task2/requirements.txt
     python Task2/fandom_html_to_markdown.py \
     --url "https://gameofthrones.fandom.com/wiki/Jon_Snow" \
     --out-dir Task2/knowledge_base_raw
-    ``
+    ```
 
 2. Сформировать файл с адресами страниц
 
@@ -316,6 +316,16 @@ python Task2/apply_terms_map.py \
 
 Поэтому был сделан новый скрипт фильтрации `filter_knowledge_base.py`, который убирает мусорные разделы и сохраняет очищенные статьи в новую директорию `knowledge_base_filtered`.
 
+#### Фактический результат
+
+Фактически подготовлены:
+
+- `Task2/knowledge_base_raw` - 36 исходных Markdown-документов;
+- `Task2/knowledge_base` - 36 документов после замены терминов;
+- `Task2/knowledge_base_filtered` - 36 документов после дополнительной фильтрации;
+- `Task2/terms_map.json` - словарь замен, `flat_map` содержит 448 замен;
+- `Task2/replacement_report.json` - отчет: 27076 замен по 387 исходным терминам.
+
 ---
 
 ## Задание 3. Создание векторного индекса базы знаний
@@ -343,9 +353,9 @@ python Task2/apply_terms_map.py \
 
 ### 2. Преобразование текстов в чанки
 
-Для разбиения базы  добавлен скрипт `Task3/chunk_texts_v2.py`.
+Для разбиения базы добавлен скрипт `Task3/chunk_texts_v2.py`.
 
-Она использует `RecursiveCharacterTextSplitter` из LangChain. Зависимость для запуска указана в `Task3/requirements.txt`:
+Он использует `RecursiveCharacterTextSplitter` из LangChain. Зависимость для запуска указана в `Task3/requirements.txt`:
 
 ```bash
 python3 -m pip install -r Task3/requirements.txt
@@ -353,7 +363,7 @@ python3 -m pip install -r Task3/requirements.txt
 
 Логика:
 
-1. Markdown-файлы из `Task2/knowledge_base` и `Task2/knowledge_base_filtered` сначала делятся на логические секции по заголовкам.
+1. Markdown-файлы сначала делятся на логические секции по заголовкам.
 2. Внутри каждой секции применяется `RecursiveCharacterTextSplitter`.
 3. Для splitter задан word-based лимит через `length_function=count_words`.
 4. Размер чанка: до 300 слов.
@@ -363,27 +373,23 @@ python3 -m pip install -r Task3/requirements.txt
 
 Результат:
 
-- файл с чанками: `Task3/chunks_v2.json`;
 - splitter: `RecursiveCharacterTextSplitter`;
-- количество обработанных Markdown-файлов: 36;
-- количество созданных чанков: 1649;
-- минимальный размер чанка: 3 слова;
-- максимальный размер чанка: 300 слов;
-- общий объем текста в чанках: 321539 слов.
+- `Task3/chunks_v2.json` - 36 файлов из `Task2/knowledge_base`, 1649 чанков, от 3 до 300 слов, всего 321539 слов;
+- `Task3/chunks_filtered_v2.json` - 36 файлов из `Task2/knowledge_base_filtered`, 1555 чанков, от 3 до 300 слов, всего 309279 слов.
 
 ### 3. Генерация эмбеддингов
 
-На этом шаге для двух вариантов чанков были сгенерированы эмбеддинги с помощью модели `sentence-transformers/all-MiniLM-L6-v2`. Реализация `generate_embeddings.py`
+На этом шаге для двух вариантов чанков были сгенерированы эмбеддинги с помощью модели `sentence-transformers/all-MiniLM-L6-v2`. Реализация находится в `Task3/generate_embeddings.py`.
 
 Входные файлы:
 
-- `Task3/chunks_v2.json` - вариант чанков, созданный через `RecursiveCharacterTextSplitter`.
-- `Task3/chunks_filtered_v2.json` -вариант чанков, созданный через `RecursiveCharacterTextSplitter` на основе  данных, в которых были убраны мусорные разделы
+- `Task3/chunks_v2.json` - вариант чанков, созданный через `RecursiveCharacterTextSplitter`;
+- `Task3/chunks_filtered_v2.json` - вариант чанков, созданный через `RecursiveCharacterTextSplitter` на основе данных, в которых были убраны мусорные разделы.
 
 Выходные файлы:
 
 - `Task3/embeddings/chunks_v2_embeddings.npy` - эмбеддинги для `chunks_v2.json`;
-- `Task3/embeddings/chunks_v2_metadata.json` - метаданные для `chunks_v2.json`.
+- `Task3/embeddings/chunks_v2_metadata.json` - метаданные для `chunks_v2.json`;
 - `Task3/embeddings/chunks_filtered_v2_embeddings.npy` - эмбеддинги для `chunks_filtered_v2.json`;
 - `Task3/embeddings/chunks_filtered_v2_metadata.json` - метаданные для `chunks_filtered_v2.json`;
 
@@ -418,12 +424,49 @@ python3 Task3/generate_embeddings.py
 Скрипт `Task3/generate_embeddings.py` выполняет следующие действия:
 
 1. Загружает модель `sentence-transformers/all-MiniLM-L6-v2`.
-2. Читает тексты чанков из `Task3/chunks_v2.json` и `Task3/chunks_filtered_v2.json`.
+2. Читает тексты чанков из файлов, перечисленных в `INPUTS`; в текущем состоянии активен `Task3/chunks_filtered_v2.json`, а для пересборки `Task3/chunks_v2.json` нужно раскомментировать его конфиг.
 3. Для каждого чанка берет поле `text`, потому что в нем уже есть основной текст и контекст документа/секции.
 4. Генерирует эмбеддинги батчами по 32.
 5. Нормализует эмбеддинги через `normalize_embeddings=True`, чтобы далее было удобно использовать cosine similarity или inner product в FAISS.
 6. Сохраняет матрицу эмбеддингов в формате `.npy` с типом `float32`.
 7. Отдельно сохраняет JSON с метаданными чанков: `chunk_id`, источник, заголовок документа, секция, размер чанка и текст.
+
+Фактически сохраненные embeddings:
+
+- `chunks_v2_embeddings.npy`: форма `(1649, 384)`, тип `float32`, metadata содержит 1649 записей;
+- `chunks_filtered_v2_embeddings.npy`: форма `(1555, 384)`, тип `float32`, metadata содержит 1555 записей.
+
+**Время генерации эмбендингов**. Замер проводился изменением конфига в скрипте:
+
+1) `chunks_v2.json`
+
+    ```bash
+    ❯ time python3 Task3/generate_embeddings.py
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 23536.55it/s]
+    Batches: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:05<00:00, 10.25it/s]
+    Chunks file: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/chunks_v2.json
+    Chunks: 1649
+    Embeddings shape: (1649, 384)
+    Saved embeddings: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/embeddings/chunks_v2_embeddings.npy
+    Saved metadata: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/embeddings/chunks_v2_metadata.json
+    python3 Task3/generate_embeddings.py  4.18s user 0.74s system 40% cpu 12.093 total
+    ```
+
+2) `chunks_filtered_v2.json`
+
+    ```bash
+    ❯ time python3 Task3/generate_embeddings.py
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    Loading weights: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 21189.59it/s]
+    Batches: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49/49 [00:04<00:00, 10.18it/s]
+    Chunks file: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/chunks_filtered_v2.json
+    Chunks: 1555
+    Embeddings shape: (1555, 384)
+    Saved embeddings: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/embeddings/chunks_filtered_v2_embeddings.npy
+    Saved metadata: /Users/alexandermilakov/Study/YA_Software_Architecture/SP_7/architecture-rag/Task3/embeddings/chunks_filtered_v2_metadata.json
+    python3 Task3/generate_embeddings.py  3.99s user 0.67s system 40% cpu 11.527 total
+    ```
 
 #### Проверка результата
 
@@ -490,7 +533,7 @@ ls -lh Task3/embeddings/chunks_filtered_v2_embeddings.npy
 ls -lh Task3/embeddings/chunks_filtered_v2_metadata.json
 ```
 
-3. Запустить построение индексов:
+3. Запустить построение индексов, активных в `INDEX_CONFIGS`:
 
 ```bash
 python3 Task3/build_faiss_index.py
@@ -524,6 +567,18 @@ for path in [
 PY
 ```
 
+Вывод:
+
+```bash
+Task3/faiss_index/chunks_v2.index ntotal: 1649 dimension: 384
+Task3/faiss_index/chunks_filtered_v2.index ntotal: 1555 dimension: 384
+```
+
+Фактическая сверка индексов:
+
+- `Task3/faiss_index/chunks_v2.index` существует и соответствует embeddings `(1649, 384)`;
+- `Task3/faiss_index/chunks_filtered_v2.index` существует и соответствует embeddings `(1555, 384)`.
+
 ### 5. Тестовый поиск
 
 Для проверки качества поиска используется скрипт `Task3/search_faiss.py`.
@@ -550,6 +605,14 @@ python3 Task3/search_faiss.py
 - `Who restored House Volkonsky after the Anfield Derby?`
 - `What happened to Daria Romanova in Wembley?`
 - `Where is Maracana located?`
+
+Фактически результат поиска:
+
+- `Who restored House Volkonsky after the Anfield Derby?` - top-1 для обоих индексов: `Task2/knowledge_base*/anfield-derby.md`, секция `History > Aftermath`, score `0.7122`.
+
+- `What happened to Daria Romanova in Wembley?` - для `chunks_filtered_v2` top-1: `daria-romanova.md`, секция `Personality`, score `0.6286`; более прямой биографический фрагмент про Arc Eight найден в top-4, поэтому для таких вопросов нужно использовать top-5, а не только top-1.
+
+- `Where is Maracana located?` - top-1 для обоих индексов: `maracana.md`, секция `Maracana`, score `0.7452`; фрагмент содержит прямой ответ про Slaver's Bay, Yunkai, Astapor и Skahazadhan River.
 
 ---
 
@@ -620,6 +683,164 @@ gemma3:4b
 
 Это компромиссный вариант для MacBook: модель достаточно компактная для локального запуска, не уходит в длинный reasoning trace по умолчанию и лучше подходит для коротких RAG-ответов, чем совсем маленькие 1B-модели.
 
+### Интерфейс и запуск
+
+Интерфейс реализован в виде CLI/REPL внутри `Task4/rag_pipeline.py`.
+
+Запуск одного вопроса:
+
+```bash
+python3 Task4/rag_pipeline.py "Where is Maracana located?" --show-sources
+```
+
+Запуск интерактивного REPL:
+
+```bash
+python3 Task4/rag_pipeline.py --show-sources
+```
+
+В REPL можно вводить вопросы построчно; для выхода используется `exit`, `quit` или `:q`.
+
+### Примеры успешных диалогов
+
+**Вопрос:** "Where is Maracana located?"
+
+```bash
+python3 Task4/rag_pipeline.py "Where is Maracana located?" --show-sources
+```
+
+**Ответ:**
+
+```bash
+❯ python3 Task4/rag_pipeline.py "Where is Maracana located?" --show-sources
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████| 103/103 [00:00<00:00, 26621.48it/s]
+Answer:
+Maracana is the northernmost and greatest of the three great city-states of Slaver’s Bay, north of Yunkai and Astapor. It is located at the mouth of the Skahazadhan River, which flows from its origins in Lhazar through the mountains separating Maracana and the rest of Slaver's Bay from the Red Waste. The Dothraki Sea lies to the north, beyond the river.
+
+Reasoning:
+1. Fragment [1] states that Maracana is the northernmost and greatest city-state of Slaver’s Bay.
+2. Fragment [2] describes its location at the mouth of the Skahazadhan River.
+3. Fragments [1] and [2] also provide context regarding its position relative to other cities and geographical features like the Dothraki Sea.
+
+Sources: [1], [2]
+
+Retrieved chunks:
+[1] score=0.7452 title='Maracana' section='Maracana' source=Task2/knowledge_base_filtered/maracana.md
+[2] score=0.6735 title='Maracana' section='Maracana > History > Background' source=Task2/knowledge_base_filtered/maracana.md
+[3] score=0.6404 title='Maracana' section='Maracana > In the books' source=Task2/knowledge_base_filtered/maracana.md
+[4] score=0.4795 title='San Siro' section='San Siro > Geography' source=Task2/knowledge_base_filtered/san-siro.md
+[5] score=0.4720 title='Maracana Night' section='Maracana Night > Participants > Known escapees' source=Task2/knowledge_base_filtered/maracana-night.md
+```
+
+**Вопрос:** "How was House Volkonsky restored after the Anfield Derby?"
+
+```bash
+python3 Task4/rag_pipeline.py "How was House Volkonsky restored after the Anfield Derby?" --show-sources
+```
+
+**Ответ:**
+
+```bash
+python3 Task4/rag_pipeline.py "How was House Volkonsky restored after the Anfield Derby?" --show-sources
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████| 103/103 [00:00<00:00, 23440.77it/s]
+Answer:
+House Volkonsky was restored to its status as the ruling house of the Camp Nou District following the victory at the Anfield Derby.
+
+Reasoning:
+1. Fragment [4] states, “Following the Anfield Derby, House Volkonsky retook Anfield and restored its power in the Camp Nou District.”
+2. Fragment [5] lists House Volkonsky as a vassal house of House Baryatinsky, stating that it was “usurped” after the Maracana Night but then “restored” at the Anfield Derby.
+3. Fragment [3] confirms that the Anfield Derby resulted in House Volkonsky regaining control of Anfield and being declared King in the Camp Nou District.
+
+Sources: [4], [5]
+
+Retrieved chunks:
+[1] score=0.6893 title='Anfield Derby' section='Anfield Derby > History > Aftermath' source=Task2/knowledge_base_filtered/anfield-derby.md
+[2] score=0.6404 title='Anfield Derby' section='Anfield Derby > History > Aftermath' source=Task2/knowledge_base_filtered/anfield-derby.md
+[3] score=0.5776 title='Anfield Derby' section='Anfield Derby' source=Task2/knowledge_base_filtered/anfield-derby.md
+[4] score=0.5634 title='Five Stadiums Cup' section='Five Stadiums Cup > Aftermath and continuing hostilities > Fall of the mockingbird' source=Task2/knowledge_base_filtered/five-stadiums-cup.md
+[5] score=0.5575 title='House Volkonsky' section='House Volkonsky > Relationships > Sworn to House Volkonsky > Vassal houses' source=Task2/knowledge_base_filtered/house-volkonsky.md
+```
+
+**Вопрос:** "Why is Baltic alloy important in the fight against Frost Wanderers?"
+
+```bash
+python3 Task4/rag_pipeline.py "Why is Baltic alloy important in the fight against Frost Wanderers?" --show-sources
+```
+
+**Ответ:**
+
+```bash
+❯ python3 Task4/rag_pipeline.py "Why is Baltic alloy important in the fight against Frost Wanderers?" --show-sources
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████| 103/103 [00:00<00:00, 22284.81it/s]
+Answer:
+Baltic alloy is important because it can kill Frost Wanderers rapidly, similar to dragonglass, and weapons made of it remain extremely sharp.
+
+Reasoning:
+1. Fragment [1] states that Baltic alloy “can kill Frost Wanderers, although this property is not widely known.”
+2. Fragment [2] describes its effect as “painfully freeze into ice, and quickly shatter and crumble into pieces,” which indicates a rapid killing effect.
+3. Fragment [3] mentions that Ivan discovered by accident that Baltic alloy is deadly to Frost Wanderers, further supporting its effectiveness.
+
+Sources: [1], [2], [3]
+
+Retrieved chunks:
+[1] score=0.7138 title='Baltic alloy' section='Baltic alloy' source=Task2/knowledge_base_filtered/baltic-alloy.md
+[2] score=0.6952 title='Frost Wanderers' section='Frost Wanderers > Weaknesses' source=Task2/knowledge_base_filtered/frost-wanderers.md
+[3] score=0.6266 title='Frost Wanderers' section='Frost Wanderers > In the books' source=Task2/knowledge_base_filtered/frost-wanderers.md
+[4] score=0.5425 title='Baltic alloy' section='Baltic alloy > Forging' source=Task2/knowledge_base_filtered/baltic-alloy.md
+[5] score=0.5329 title='Baltic alloy' section='Baltic alloy > Forging' source=Task2/knowledge_base_filtered/baltic-alloy.md
+```
+
+### Примеры, когда бот отвечает, что не знает
+
+**Вопрос:** "What is the vacation policy of QuantumForge HR?"
+
+```bash
+python3 Task4/rag_pipeline.py "What is the vacation policy of QuantumForge HR?" --show-sources
+```
+
+**Ответ:**
+
+```bash
+❯ python3 Task4/rag_pipeline.py "What is the vacation policy of QuantumForge HR?" --show-sources
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████| 103/103 [00:00<00:00, 28173.56it/s]
+I do not know based on the retrieved fragments.
+
+No chunks passed the score threshold.
+```
+
+**Вопрос:** "Which database engine powers the Maracana payroll system?"
+
+```bash
+python3 Task4/rag_pipeline.py "Which database engine powers the Maracana payroll system?" --show-sources
+```
+
+**Ответ:**
+
+```bash
+❯ python3 Task4/rag_pipeline.py "Which database engine powers the Maracana payroll system?" --show-sources
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████████████████████████████| 103/103 [00:00<00:00, 28291.64it/s]
+Answer:
+I do not know based on the retrieved fragments.
+
+Reasoning:
+1. Fragment [1] describes the history of Maracana, its location, and its relationship to other city-states in Slaver's Bay.
+2. Fragments [2], [3], [4], and [5] detail events involving political negotiations, military conflicts, and religious influences within Maracana, but none mention a payroll system or database engine.
+3. There is no information about the Maracana payroll system in any of the retrieved fragments.
+
+Sources: [1]
+
+Retrieved chunks:
+[1] score=0.3369 title='Maracana' section='Maracana > History > Background' source=Task2/knowledge_base_filtered/maracana.md
+[2] score=0.3334 title='Maracana' section='Maracana > History > Chronicles of the Silver Tribune : Arc Two' source=Task2/knowledge_base_filtered/maracana.md
+[3] score=0.3276 title='Maracana' section='Maracana' source=Task2/knowledge_base_filtered/maracana.md
+[4] score=0.3196 title='Maracana' section='Maracana > History > Chronicles of the Silver Tribune : Arc Four' source=Task2/knowledge_base_filtered/maracana.md
+[5] score=0.3147 title='Maracana' section='Maracana > History > Chronicles of the Silver Tribune : Arc Six' source=Task2/knowledge_base_filtered/maracana.md
+```
 
 ---
 
@@ -628,3 +849,7 @@ gemma3:4b
 1. Соберите Docker‑образ бота. Минимальный Dockerfile + docker compose.yml (бот + FAISS).
 2. **Сделайте 10 скринов:** 5 — когда бот отвечает и ещё 5 — когда честно пишет: «Я не знаю».
 3. Когда вы выполните все задания проектной работы, создайте пул-реквест из ветки RAG в основную ветку вашего репозитория. Убедитесь, что пул-реквест содержит все изменения, которые вы вносили. Ссылка на пул-реквест — это и есть ваша сдача проекта.
+
+Критическая пометка: этот раздел относится к финальной сдаче проекта, но в рабочем дереве сейчас не найдены `Dockerfile`, `docker-compose.yml`, сохраненные 10 скриншотов и ссылка на PR. Так как задание 5 пока не учитывается, эти артефакты здесь не добавлялись.
+
+Инструкция для сверки перед финальной сдачей: проверить наличие Docker-артефактов, запустить бота из контейнера, сохранить 5 успешных и 5 негативных скриншотов, затем добавить ссылку на pull request.
