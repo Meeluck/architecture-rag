@@ -1,0 +1,4025 @@
+{
+  "source_url": "https://gameofthrones.fandom.com/wiki/Game_of_Thrones#Retainers_at_Winterfell",
+  "section": "Cast",
+  "characters_count": 226,
+  "mapping_validation": {
+    "terms_map_loaded": true,
+    "unique_characters": 221,
+    "mapped_unique_characters": 221,
+    "missing_unique_characters": 0,
+    "missing_characters": []
+  },
+  "characters": [
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Sean Bean",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sean_Bean"
+      ],
+      "character": "Eddard Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Eddard_Stark"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Winterfell"
+      ],
+      "description": "Lord of Winterfell .",
+      "raw_text": "Sean Bean as Lord Eddard Stark , Lord of Winterfell .",
+      "mapping_status": "mapped",
+      "mapped_to": "Eduard Volkonsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Michelle Fairley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Michelle_Fairley"
+      ],
+      "character": "Catelyn Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Catelyn_Stark"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Tully"
+      ],
+      "description": "originally of House Tully .",
+      "raw_text": "Michelle Fairley as Lady Catelyn Stark , originally of House Tully .",
+      "mapping_status": "mapped",
+      "mapped_to": "Ekaterina Volkonskaya"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Richard Madden",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_Madden"
+      ],
+      "character": "Robb Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Robb_Stark"
+      ],
+      "related_links": [],
+      "description": "Eddard's eldest son and heir.",
+      "raw_text": "Richard Madden as Robb Stark , Eddard's eldest son and heir.",
+      "mapping_status": "mapped",
+      "mapped_to": "Roman Volkonsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Sophie Turner",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sophie_Turner"
+      ],
+      "character": "Sansa Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Sansa_Stark"
+      ],
+      "related_links": [],
+      "description": "Eddard's eldest daughter.",
+      "raw_text": "Sophie Turner as Sansa Stark , Eddard's eldest daughter.",
+      "mapping_status": "mapped",
+      "mapped_to": "Sofia Volkonskaya"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Maisie Williams",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Maisie_Williams"
+      ],
+      "character": "Arya Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Arya_Stark"
+      ],
+      "related_links": [],
+      "description": "Eddard's youngest daughter.",
+      "raw_text": "Maisie Williams as Arya Stark , Eddard's youngest daughter.",
+      "mapping_status": "mapped",
+      "mapped_to": "Arina Volkonskaya"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Isaac Hempstead-Wright",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Isaac_Hempstead-Wright"
+      ],
+      "character": "Bran Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Bran_Stark"
+      ],
+      "related_links": [],
+      "description": "Eddard's middle son.",
+      "raw_text": "Isaac Hempstead-Wright as Bran Stark , Eddard's middle son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Boris Volkonsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Art Parkinson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Art_Parkinson"
+      ],
+      "character": "Rickon Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rickon_Stark"
+      ],
+      "related_links": [],
+      "description": "Eddard's youngest son.",
+      "raw_text": "Art Parkinson as Rickon Stark , Eddard's youngest son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Alexei Volkonsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Kit Harington",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kit_Harington"
+      ],
+      "character": "Jon Snow",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jon_Snow"
+      ],
+      "related_links": [],
+      "description": "Eddard's bastard son by an unknown mother.",
+      "raw_text": "Kit Harington as Jon Snow , Eddard's bastard son by an unknown mother.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ivan Morozov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "",
+      "actor": "Joseph Mawle",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Joseph_Mawle"
+      ],
+      "character": "Benjen Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Benjen_Stark"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/First_Ranger",
+        "https://gameofthrones.fandom.com/wiki/Night%27s_Watch"
+      ],
+      "description": "Eddard's younger brother, First Ranger of the Night's Watch .",
+      "raw_text": "Joseph Mawle as Benjen Stark , Eddard's younger brother, First Ranger of the Night's Watch .",
+      "mapping_status": "mapped",
+      "mapped_to": "Andrei Volkonsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Alfie Allen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Alfie_Allen"
+      ],
+      "character": "Theon Greyjoy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Theon_Greyjoy"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Balon_Greyjoy"
+      ],
+      "description": "a ward and hostage for his rebellious father 's good behavior.",
+      "raw_text": "Alfie Allen as Theon Greyjoy , a ward and hostage for his rebellious father 's good behavior.",
+      "mapping_status": "mapped",
+      "mapped_to": "Timofey Stroganov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Ron Donachie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ron_Donachie"
+      ],
+      "character": "Rodrik Cassel",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rodrik_Cassel"
+      ],
+      "related_links": [],
+      "description": "master of arms.",
+      "raw_text": "Ron Donachie as Ser Rodrik Cassel , master of arms.",
+      "mapping_status": "mapped",
+      "mapped_to": "Anton Karamzin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Jamie Sives",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jamie_Sives"
+      ],
+      "character": "Jory Cassel",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jory_Cassel"
+      ],
+      "related_links": [],
+      "description": "Rodrik's nephew, captain of the guards.",
+      "raw_text": "Jamie Sives as Jory Cassel , Rodrik's nephew, captain of the guards.",
+      "mapping_status": "mapped",
+      "mapped_to": "Arkady Karamzin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Donald Sumpter",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Donald_Sumpter"
+      ],
+      "character": "Luwin",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Luwin"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Order_of_Maesters"
+      ],
+      "description": "a maester of the Citadel.",
+      "raw_text": "Donald Sumpter as Maester Luwin , a maester of the Citadel.",
+      "mapping_status": "mapped",
+      "mapped_to": "Arseny Apraksin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Kristian Nairn",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kristian_Nairn"
+      ],
+      "character": "Hodor",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hodor"
+      ],
+      "related_links": [],
+      "description": "a simple stableboy.",
+      "raw_text": "Kristian Nairn as Hodor , a simple stableboy.",
+      "mapping_status": "mapped",
+      "mapped_to": "Afanasy Bestuzhev"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Margaret John",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Margaret_John"
+      ],
+      "character": "Old Nan",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Old_Nan"
+      ],
+      "related_links": [],
+      "description": "a retired servant and Hodor's great-grandmother.",
+      "raw_text": "Margaret John as Old Nan , a retired servant and Hodor's great-grandmother.",
+      "mapping_status": "mapped",
+      "mapped_to": "Agrafena Bagration"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Susan Brown",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Susan_Brown"
+      ],
+      "character": "Mordane",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mordane"
+      ],
+      "related_links": [],
+      "description": "a religious tutor and governess to Arya and Sansa.",
+      "raw_text": "Susan Brown as Septa Mordane , a religious tutor and governess to Arya and Sansa.",
+      "mapping_status": "mapped",
+      "mapped_to": "Aksinya Dashkova"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Retainers at Winterfell",
+      "actor": "Esmé Bianco",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Esm%C3%A9_Bianco"
+      ],
+      "character": "Ros",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ros"
+      ],
+      "related_links": [],
+      "description": "a prostitute working in Winterfell's outlying town.",
+      "raw_text": "Esmé Bianco as Ros , a prostitute working in Winterfell's outlying town.",
+      "mapping_status": "mapped",
+      "mapped_to": "Alexandra Derzhavina"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Clive Mantle",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Clive_Mantle"
+      ],
+      "character": "Greatjon Umber",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Greatjon_Umber"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Last_Hearth"
+      ],
+      "description": "Lord of Last Hearth , a loyal vassal of House Stark.",
+      "raw_text": "Clive Mantle as Lord Greatjon Umber , Lord of Last Hearth , a loyal vassal of House Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Bogdan Uvarov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Dean S. Jagger",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Dean_S._Jagger"
+      ],
+      "character": "Smalljon Umber",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Smalljon_Umber"
+      ],
+      "related_links": [],
+      "description": "Greatjon Umber's son and heir.",
+      "raw_text": "Dean S. Jagger as Smalljon Umber , Greatjon Umber's son and heir.",
+      "mapping_status": "mapped",
+      "mapped_to": "Boris Uvarov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Harry Grasby",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Harry_Grasby"
+      ],
+      "character": "Ned Umber",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ned_Umber"
+      ],
+      "related_links": [],
+      "description": "Smalljon Umber's son.",
+      "raw_text": "Harry Grasby as Ned Umber , Smalljon Umber's son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Daniil Uvarov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "John Stahl",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/John_Stahl"
+      ],
+      "character": "Rickard Karstark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rickard_Karstark"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Karhold"
+      ],
+      "description": "Lord of Karhold , a vassal and distant kinsman of House Stark.",
+      "raw_text": "John Stahl as Lord Rickard Karstark , Lord of Karhold , a vassal and distant kinsman of House Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Demyan Vyazemsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Paul Rattray",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Paul_Rattray"
+      ],
+      "character": "Harald Karstark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Harald_Karstark"
+      ],
+      "related_links": [],
+      "description": "Lord Rickard's son.",
+      "raw_text": "Paul Rattray as Harald Karstark , Lord Rickard's son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Dmitry Vyazemsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Megan Parkinson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Megan_Parkinson"
+      ],
+      "character": "Alys Karstark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Alys_Karstark"
+      ],
+      "related_links": [],
+      "description": "Harald Karstark's daughter.",
+      "raw_text": "Megan Parkinson as Alys Karstark , Harald Karstark's daughter.",
+      "mapping_status": "mapped",
+      "mapped_to": "Alena Vyazemskaya"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Bella Ramsey",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Bella_Ramsey"
+      ],
+      "character": "Lyanna Mormont",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lyanna_Mormont"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Bear_Island"
+      ],
+      "description": "Lady of Bear Island .",
+      "raw_text": "Bella Ramsey as Lady Lyanna Mormont , Lady of Bear Island .",
+      "mapping_status": "mapped",
+      "mapped_to": "Anastasia Mamonova"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Tim McInnerny",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tim_McInnerny"
+      ],
+      "character": "Robett Glover",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Robett_Glover"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Deepwood_Motte"
+      ],
+      "description": "the Master of Deepwood Motte .",
+      "raw_text": "Tim McInnerny as Lord Robett Glover , the Master of Deepwood Motte .",
+      "mapping_status": "mapped",
+      "mapped_to": "Egor Gorchakov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Tom Varey",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tom_Varey"
+      ],
+      "character": "Cley Cerwyn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Cley_Cerwyn"
+      ],
+      "related_links": [],
+      "description": "the heir to House Cerwyn.",
+      "raw_text": "Tom Varey as Lord Cley Cerwyn , the heir to House Cerwyn.",
+      "mapping_status": "mapped",
+      "mapped_to": "Emelyan Chertkov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Sean Blowers",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sean_Blowers"
+      ],
+      "character": "Wyman Manderly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Wyman_Manderly"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/White_Harbor"
+      ],
+      "description": "Lord of White Harbor , a powerful and loyal vassal of House Stark.",
+      "raw_text": "Sean Blowers as Lord Wyman Manderly , Lord of White Harbor , a powerful and loyal vassal of House Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Fedor Milyutin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Thomas Brodie-Sangster",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Thomas_Brodie-Sangster"
+      ],
+      "character": "Jojen Reed",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jojen_Reed"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Howland_Reed"
+      ],
+      "description": "the son and heir of Lord Howland Reed , one of Eddard Stark's closest friends and allies.",
+      "raw_text": "Thomas Brodie-Sangster as Jojen Reed , the son and heir of Lord Howland Reed , one of Eddard Stark's closest friends and allies.",
+      "mapping_status": "mapped",
+      "mapped_to": "Filipp Rzhevsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "Vassals and allies of House Stark",
+      "actor": "Ellie Kendrick",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ellie_Kendrick"
+      ],
+      "character": "Meera Reed",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Meera_Reed"
+      ],
+      "related_links": [],
+      "description": "Jojen's older sister.",
+      "raw_text": "Ellie Kendrick as Meera Reed , Jojen's older sister.",
+      "mapping_status": "mapped",
+      "mapped_to": "Anfisa Rzhevskaya"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Michael McElhatton",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Michael_McElhatton"
+      ],
+      "character": "Roose Bolton",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Roose_Bolton"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Dreadfort"
+      ],
+      "description": "Lord of the Dreadfort , a vassal of Eddard Stark.",
+      "raw_text": "Michael McElhatton as Lord Roose Bolton , Lord of the Dreadfort , a vassal of Eddard Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ruslan Baryatinsky"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Iwan Rheon",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Iwan_Rheon"
+      ],
+      "character": "Ramsay Snow",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ramsay_Bolton"
+      ],
+      "related_links": [],
+      "description": "Lord Roose's bastard son.",
+      "raw_text": "Iwan Rheon as Ramsay Snow , Lord Roose's bastard son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gavriil Dolgorukov"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Noah Taylor",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Noah_Taylor"
+      ],
+      "character": "Locke",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Locke"
+      ],
+      "related_links": [],
+      "description": "a vassal and hunter in Lord Bolton's service.",
+      "raw_text": "Noah Taylor as Locke , a vassal and hunter in Lord Bolton's service.",
+      "mapping_status": "mapped",
+      "mapped_to": "Georgy Gagarin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Charlotte Hope",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Charlotte_Hope"
+      ],
+      "character": "Myranda",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Myranda"
+      ],
+      "related_links": [],
+      "description": "the kennel master's daughter at the Dreadfort, and Ramsay's bedwarmer.",
+      "raw_text": "Charlotte Hope as Myranda , the kennel master's daughter at the Dreadfort, and Ramsay's bedwarmer.",
+      "mapping_status": "mapped",
+      "mapped_to": "Anna Golitsyna"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Richard Rycroft",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_Rycroft"
+      ],
+      "character": "Wolkan",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Wolkan"
+      ],
+      "related_links": [],
+      "description": "a maester in service to House Bolton.",
+      "raw_text": "Richard Rycroft as Maester Wolkan , a maester in service to House Bolton.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gleb Karamzin"
+    },
+    {
+      "group": "House Stark",
+      "subgroup": "House Bolton and retainers",
+      "actor": "Jamie Michie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jamie_Michie"
+      ],
+      "character": "Steelshanks",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Steelshanks"
+      ],
+      "related_links": [],
+      "description": "a man-at-arms in service to House Bolton.",
+      "raw_text": "Jamie Michie as Steelshanks , a man-at-arms in service to House Bolton.",
+      "mapping_status": "mapped",
+      "mapped_to": "Grigory Kornilov"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Charles Dance",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Charles_Dance"
+      ],
+      "character": "Tywin Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tywin_Lannister"
+      ],
+      "related_links": [],
+      "description": "the widowed patriarch of House Lannister and father of Cersei, Jaime and Tyrion.",
+      "raw_text": "Charles Dance as Lord Tywin Lannister , the widowed patriarch of House Lannister and father of Cersei, Jaime and Tyrion.",
+      "mapping_status": "mapped",
+      "mapped_to": "Tikhon Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Lena Headey",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Lena_Headey"
+      ],
+      "character": "Cersei Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Cersei_Lannister"
+      ],
+      "related_links": [],
+      "description": "the wife of King Robert, twin sister of Jaime, mother of Joffrey, Myrcella and Tommen.",
+      "raw_text": "Lena Headey as Queen Cersei Lannister , the wife of King Robert, twin sister of Jaime, mother of Joffrey, Myrcella and Tommen.",
+      "mapping_status": "mapped",
+      "mapped_to": "Kira Sheremeteva"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Nikolaj Coster-Waldau",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Nikolaj_Coster-Waldau"
+      ],
+      "character": "Jaime Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jaime_Lannister"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Knight",
+        "https://gameofthrones.fandom.com/wiki/Kingsguard"
+      ],
+      "description": "a knight of the Kingsguard , twin brother of Cersei.",
+      "raw_text": "Nikolaj Coster-Waldau as Ser Jaime Lannister , a knight of the Kingsguard , twin brother of Cersei.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yakov Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Peter Dinklage",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Peter_Dinklage"
+      ],
+      "character": "Tyrion Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tyrion_Lannister"
+      ],
+      "related_links": [],
+      "description": "Cersei and Jaime's younger brother, called the Imp for his size.",
+      "raw_text": "Peter Dinklage as Tyrion Lannister , Cersei and Jaime's younger brother, called the Imp for his size.",
+      "mapping_status": "mapped",
+      "mapped_to": "Terenty Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Ian Gelder",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_Gelder"
+      ],
+      "character": "Kevan Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Kevan_Lannister"
+      ],
+      "related_links": [],
+      "description": "Lord Tywin's younger brother and closest adviser.",
+      "raw_text": "Ian Gelder as Ser Kevan Lannister , Lord Tywin's younger brother and closest adviser.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ignat Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Eugene Simon",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Eugene_Simon"
+      ],
+      "character": "Lancel Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lancel_Lannister"
+      ],
+      "related_links": [],
+      "description": "Ser Kevan's son, a squire to King Robert.",
+      "raw_text": "Eugene Simon as Lancel Lannister , Ser Kevan's son, a squire to King Robert.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ilya Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "",
+      "actor": "Karl Davies",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Karl_Davies"
+      ],
+      "character": "Alton Lannister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Alton_Lannister"
+      ],
+      "related_links": [],
+      "description": "a distant cousin of the main branch of the family.",
+      "raw_text": "Karl Davies as Alton Lannister , a distant cousin of the main branch of the family.",
+      "mapping_status": "mapped",
+      "mapped_to": "Kirill Sheremetev"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Daniel Portman",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Daniel_Portman"
+      ],
+      "character": "Podrick Payne",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Podrick_Payne"
+      ],
+      "related_links": [],
+      "description": "a squire, a member of one of the Lannisters' vassal families.",
+      "raw_text": "Daniel Portman as Podrick Payne , a squire, a member of one of the Lannisters' vassal families.",
+      "mapping_status": "mapped",
+      "mapped_to": "Klim Panin"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Fintan McKeown",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Fintan_McKeown"
+      ],
+      "character": "Amory Lorch",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Amory_Lorch"
+      ],
+      "related_links": [],
+      "description": "a loyal vassal and retainer of House Lannister.",
+      "raw_text": "Fintan McKeown as Ser Amory Lorch , a loyal vassal and retainer of House Lannister.",
+      "mapping_status": "mapped",
+      "mapped_to": "Konstantin Lobanov"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Rory McCann",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Rory_McCann"
+      ],
+      "character": "Sandor Clegane",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Sandor_Clegane"
+      ],
+      "related_links": [],
+      "description": "Prince Joffrey's bodyguard and sworn sword, long in the service of House Lannister. Known as \"the Hound.\"",
+      "raw_text": "Rory McCann as Sandor Clegane , Prince Joffrey's bodyguard and sworn sword, long in the service of House Lannister. Known as \"the Hound.\"",
+      "mapping_status": "mapped",
+      "mapped_to": "Lavr Kutuzov"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Conan Stevens (Season 1)/ Ian Whyte (Season 2)/ Hafþór Júlíus Björnsson (Seasons 4-8)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Conan_Stevens",
+        "https://gameofthrones.fandom.com/wiki/Ian_Whyte",
+        "https://gameofthrones.fandom.com/wiki/Haf%C3%BE%C3%B3r_J%C3%BAl%C3%ADus_Bj%C3%B6rnsson"
+      ],
+      "character": "Gregor Clegane",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Gregor_Clegane"
+      ],
+      "related_links": [],
+      "description": "Sandor Clegane's older brother and the most feared knight in Westeros, called \"the Mountain\" because of his massive size.",
+      "raw_text": "Conan Stevens (Season 1)/ Ian Whyte (Season 2)/ Hafþór Júlíus Björnsson (Seasons 4-8) as Ser Gregor Clegane , Sandor Clegane's older brother and the most feared knight in Westeros, called \"the Mountain\" because of his massive size.",
+      "mapping_status": "mapped",
+      "mapped_to": "Leonid Kutuzov"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Anthony Morris",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Anthony_Morris"
+      ],
+      "character": "Tickler",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tickler"
+      ],
+      "related_links": [],
+      "description": "the Tickler , a noted interrogator and torturer in the service of Ser Gregor Clegane.",
+      "raw_text": "Anthony Morris as the Tickler , a noted interrogator and torturer in the service of Ser Gregor Clegane.",
+      "mapping_status": "mapped",
+      "mapped_to": "Lev Kutuzov"
+    },
+    {
+      "group": "House Lannister",
+      "subgroup": "Vassals and allies of House Lannister",
+      "actor": "Andy Kellegher",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Andy_Kellegher"
+      ],
+      "character": "Polliver",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Polliver"
+      ],
+      "related_links": [],
+      "description": "a master-at-arms in the service of Ser Gregor Clegane.",
+      "raw_text": "Andy Kellegher as Polliver , a master-at-arms in the service of Ser Gregor Clegane.",
+      "mapping_status": "mapped",
+      "mapped_to": "Luka Lazarev"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Mark Addy",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mark_Addy"
+      ],
+      "character": "Robert Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Robert_Baratheon"
+      ],
+      "related_links": [],
+      "description": "the King of the Andals and the First Men.",
+      "raw_text": "Mark Addy as King Robert Baratheon , the King of the Andals and the First Men.",
+      "mapping_status": "mapped",
+      "mapped_to": "Rodion Orlov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Jack Gleeson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jack_Gleeson"
+      ],
+      "character": "Joffrey Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Joffrey_Baratheon"
+      ],
+      "related_links": [],
+      "description": "King Robert's eldest son and heir.",
+      "raw_text": "Jack Gleeson as Prince Joffrey Baratheon , King Robert's eldest son and heir.",
+      "mapping_status": "mapped",
+      "mapped_to": "Makar Orlov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Aimee Richardson (Seasons 1-2)/ Nell Tiger Free (Season 5)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Aimee_Richardson",
+        "https://gameofthrones.fandom.com/wiki/Nell_Tiger_Free"
+      ],
+      "character": "Myrcella Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Myrcella_Baratheon"
+      ],
+      "related_links": [],
+      "description": "King Robert's eldest daughter.",
+      "raw_text": "Aimee Richardson (Seasons 1-2)/ Nell Tiger Free (Season 5) as Myrcella Baratheon , King Robert's eldest daughter.",
+      "mapping_status": "mapped",
+      "mapped_to": "Antonina Orlova"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Callum Wharry (Seasons 1-2)/ Dean-Charles Chapman (Seasons 4-6)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Callum_Wharry",
+        "https://gameofthrones.fandom.com/wiki/Dean-Charles_Chapman"
+      ],
+      "character": "Tommen Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tommen_Baratheon"
+      ],
+      "related_links": [],
+      "description": "King Robert's youngest son.",
+      "raw_text": "Callum Wharry (Seasons 1-2)/ Dean-Charles Chapman (Seasons 4-6) as Tommen Baratheon , King Robert's youngest son.",
+      "mapping_status": "mapped",
+      "mapped_to": "Matvey Orlov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Gethin Anthony",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gethin_Anthony"
+      ],
+      "character": "Renly Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Renly_Baratheon"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Storm%27s_End"
+      ],
+      "description": "King Robert's youngest brother, Lord of Storm's End .",
+      "raw_text": "Gethin Anthony as Lord Renly Baratheon , King Robert's youngest brother, Lord of Storm's End .",
+      "mapping_status": "mapped",
+      "mapped_to": "Mikhail Orlov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Stephen Dillane",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Stephen_Dillane"
+      ],
+      "character": "Stannis Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Stannis_Baratheon"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Dragonstone"
+      ],
+      "description": "King Robert's middle brother, Lord of Dragonstone .",
+      "raw_text": "Stephen Dillane as Lord Stannis Baratheon , King Robert's middle brother, Lord of Dragonstone .",
+      "mapping_status": "mapped",
+      "mapped_to": "Stepan Orlov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Tara Fitzgerald",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tara_Fitzgerald"
+      ],
+      "character": "Selyse Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Selyse_Baratheon"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Florent"
+      ],
+      "description": "Lord Stannis's wife, originally of House Florent .",
+      "raw_text": "Tara Fitzgerald as Lady Selyse Baratheon , Lord Stannis's wife, originally of House Florent .",
+      "mapping_status": "mapped",
+      "mapped_to": "Arina Orlova"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "",
+      "actor": "Kerry Ingram",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kerry_Ingram"
+      ],
+      "character": "Shireen Baratheon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Shireen_Baratheon"
+      ],
+      "related_links": [],
+      "description": "Lord Stannis's daughter and only child.",
+      "raw_text": "Kerry Ingram as Shireen Baratheon , Lord Stannis's daughter and only child.",
+      "mapping_status": "mapped",
+      "mapped_to": "Daria Orlova"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Carice van Houten",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Carice_van_Houten"
+      ],
+      "character": "Melisandre",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Melisandre"
+      ],
+      "related_links": [],
+      "description": "Lord Stannis's adviser, a red priestess.",
+      "raw_text": "Carice van Houten as Melisandre , Lord Stannis's adviser, a red priestess.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ekaterina Lomonosova"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Liam Cunningham",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Liam_Cunningham"
+      ],
+      "character": "Davos Seaworth",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Davos_Seaworth"
+      ],
+      "related_links": [],
+      "description": "a former smuggler, now Lord Stannis' most loyal vassal.",
+      "raw_text": "Liam Cunningham as Ser Davos Seaworth , a former smuggler, now Lord Stannis' most loyal vassal.",
+      "mapping_status": "mapped",
+      "mapped_to": "Nikita Ushakov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Kerr Logan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kerr_Logan"
+      ],
+      "character": "Matthos Seaworth",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Matthos_Seaworth"
+      ],
+      "related_links": [],
+      "description": "Ser Davos's son and Lord Stannis' squire.",
+      "raw_text": "Kerr Logan as Matthos Seaworth , Ser Davos's son and Lord Stannis' squire.",
+      "mapping_status": "mapped",
+      "mapped_to": "Nikolai Ushakov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Oliver Ford Davies",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Oliver_Ford_Davies"
+      ],
+      "character": "Cressen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Cressen"
+      ],
+      "related_links": [],
+      "description": "Lord Stannis's maester.",
+      "raw_text": "Oliver Ford Davies as Maester Cressen , Lord Stannis's maester.",
+      "mapping_status": "mapped",
+      "mapped_to": "Oleg Menshikov"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Lucian Msamati",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Lucian_Msamati"
+      ],
+      "character": "Salladhor Saan",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Salladhor_Saan"
+      ],
+      "related_links": [],
+      "description": "a freesail in Stannis's employ.",
+      "raw_text": "Lucian Msamati as Salladhor Saan , a freesail in Stannis's employ.",
+      "mapping_status": "mapped",
+      "mapped_to": "Osip Milutin"
+    },
+    {
+      "group": "House Baratheon",
+      "subgroup": "Vassals and allies of House Baratheon",
+      "actor": "Gwendoline Christie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gwendoline_Christie"
+      ],
+      "character": "Brienne of Tarth",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Brienne_of_Tarth"
+      ],
+      "related_links": [],
+      "description": "a fierce warrior from the Stormlands.",
+      "raw_text": "Gwendoline Christie as Brienne of Tarth , a fierce warrior from the Stormlands.",
+      "mapping_status": "mapped",
+      "mapped_to": "Elena Tatischeva"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Kate Dickie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kate_Dickie"
+      ],
+      "character": "Lysa Arryn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lysa_Arryn"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Tully"
+      ],
+      "description": "originally of House Tully , Catelyn Stark's sister.",
+      "raw_text": "Kate Dickie as Lady Lysa Arryn , originally of House Tully , Catelyn Stark's sister.",
+      "mapping_status": "mapped",
+      "mapped_to": "Elizaveta Dolgorukova"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Lino Facioli",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Lino_Facioli"
+      ],
+      "character": "Robin Arryn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Robin_Arryn"
+      ],
+      "related_links": [],
+      "description": "Lord Jon's only surviving son and heir.",
+      "raw_text": "Lino Facioli as Robin Arryn , Lord Jon's only surviving son and heir.",
+      "mapping_status": "mapped",
+      "mapped_to": "Pavel Dolgorukov"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Brendan McCormack",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Brendan_McCormack"
+      ],
+      "character": "Vardis Egen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Vardis_Egen"
+      ],
+      "related_links": [],
+      "description": "the captain of the Eyrie's household guards.",
+      "raw_text": "Brendan McCormack as Ser Vardis Egen , the captain of the Eyrie's household guards.",
+      "mapping_status": "mapped",
+      "mapped_to": "Platon Naryshkin"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Ciaran Bermingham",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ciaran_Bermingham"
+      ],
+      "character": "Mord",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mord"
+      ],
+      "related_links": [],
+      "description": "the Eyrie's chief gaoler.",
+      "raw_text": "Ciaran Bermingham as Mord , the Eyrie's chief gaoler.",
+      "mapping_status": "mapped",
+      "mapped_to": "Prokhor Obolensky"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Jefferson Hall",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jefferson_Hall"
+      ],
+      "character": "Hugh of the Vale",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hugh_of_the_Vale"
+      ],
+      "related_links": [],
+      "description": "Lord Jon's former squire.",
+      "raw_text": "Jefferson Hall as Ser Hugh of the Vale , Lord Jon's former squire.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ratmir Orlov"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Rupert Vansittart",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Rupert_Vansittart"
+      ],
+      "character": "Yohn Royce",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Yohn_Royce"
+      ],
+      "related_links": [],
+      "description": "one of the Arryns' most stalwart vassals and supporters.",
+      "raw_text": "Rupert Vansittart as Lord Yohn Royce , one of the Arryns' most stalwart vassals and supporters.",
+      "mapping_status": "mapped",
+      "mapped_to": "Rodion Panin"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Paola Dionisotti",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Paola_Dionisotti"
+      ],
+      "character": "Anya Waynwood",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Anya_Waynwood"
+      ],
+      "related_links": [],
+      "description": "one of the Arryns' vassals.",
+      "raw_text": "Paola Dionisotti as Lady Anya Waynwood , one of the Arryns' vassals.",
+      "mapping_status": "mapped",
+      "mapped_to": "Evdokia Witte"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Richard Doubleday",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_Doubleday"
+      ],
+      "character": "Vance Corbray",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Vance_Corbray"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Corbray"
+      ],
+      "description": "a knight of House Corbray .",
+      "raw_text": "Richard Doubleday as Ser Vance Corbray , a knight of House Corbray .",
+      "mapping_status": "mapped",
+      "mapped_to": "Roman Kornilov"
+    },
+    {
+      "group": "House Arryn and retainers",
+      "subgroup": "",
+      "actor": "Alisdair Simpson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Alisdair_Simpson"
+      ],
+      "character": "Donnel Waynwood",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Donnel_Waynwood"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Waynwood"
+      ],
+      "description": "a knight of House Waynwood .",
+      "raw_text": "Alisdair Simpson as Ser Donnel Waynwood , a knight of House Waynwood .",
+      "mapping_status": "mapped",
+      "mapped_to": "Rostislav Witte"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "",
+      "actor": "Roger Ashton-Griffiths",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Roger_Ashton-Griffiths"
+      ],
+      "character": "Mace Tyrell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mace_Tyrell"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Highgarden",
+        "https://gameofthrones.fandom.com/wiki/Reach"
+      ],
+      "description": "Lord of Highgarden and the Reach . Son of Olenna and the father of Loras and Margaery.",
+      "raw_text": "Roger Ashton-Griffiths as Lord Mace Tyrell , Lord of Highgarden and the Reach . Son of Olenna and the father of Loras and Margaery.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ruslan Yusupov"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "",
+      "actor": "Finn Jones",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Finn_Jones"
+      ],
+      "character": "Loras Tyrell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Loras_Tyrell"
+      ],
+      "related_links": [],
+      "description": "Lord Renly Baratheon's former squire and a famous tourney knight.",
+      "raw_text": "Finn Jones as Ser Loras Tyrell , Lord Renly Baratheon's former squire and a famous tourney knight.",
+      "mapping_status": "mapped",
+      "mapped_to": "Savva Yusupov"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "",
+      "actor": "Natalie Dormer",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Natalie_Dormer"
+      ],
+      "character": "Margaery Tyrell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Margaery_Tyrell"
+      ],
+      "related_links": [],
+      "description": "Loras's sister.",
+      "raw_text": "Natalie Dormer as Margaery Tyrell , Loras's sister.",
+      "mapping_status": "mapped",
+      "mapped_to": "Faina Yusupova"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "",
+      "actor": "Dame Diana Rigg",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Diana_Rigg"
+      ],
+      "character": "Olenna Tyrell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Olenna_Tyrell"
+      ],
+      "related_links": [],
+      "description": "nicknamed the Queen of Thorns, the matriarch of the Tyrell family.",
+      "raw_text": "Dame Diana Rigg as Olenna Tyrell , nicknamed the Queen of Thorns, the matriarch of the Tyrell family.",
+      "mapping_status": "mapped",
+      "mapped_to": "Feodora Yusupova"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "Vassals and allies of House Tyrell",
+      "actor": "James Faulkner",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/James_Faulkner"
+      ],
+      "character": "Randyll Tarly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Randyll_Tarly"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Horn_Hill",
+        "https://gameofthrones.fandom.com/wiki/Samwell_Tarly"
+      ],
+      "description": "Lord of Horn Hill , one of the Tyrells' vassals, and father of Samwell Tarly .",
+      "raw_text": "James Faulkner as Lord Randyll Tarly , Lord of Horn Hill , one of the Tyrells' vassals, and father of Samwell Tarly .",
+      "mapping_status": "mapped",
+      "mapped_to": "Semyon Tatischev"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "Vassals and allies of House Tyrell",
+      "actor": "Samantha Spiro",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Samantha_Spiro"
+      ],
+      "character": "Melessa Tarly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Melessa_Tarly"
+      ],
+      "related_links": [],
+      "description": "Randyll's wife.",
+      "raw_text": "Samantha Spiro as Lady Melessa Tarly , Randyll's wife.",
+      "mapping_status": "mapped",
+      "mapped_to": "Galina Tatischeva"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "Vassals and allies of House Tyrell",
+      "actor": "John Bradley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/John_Bradley"
+      ],
+      "character": "Samwell Tarly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Samwell_Tarly"
+      ],
+      "related_links": [],
+      "description": "Randyll's eldest son who was forced to disinherit.",
+      "raw_text": "John Bradley as Samwell Tarly , Randyll's eldest son who was forced to disinherit.",
+      "mapping_status": "mapped",
+      "mapped_to": "Serafim Tatischev"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "Vassals and allies of House Tyrell",
+      "actor": "Freddie Stroma (Season 6)/ Tom Hopper (Season 7)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Freddie_Stroma",
+        "https://gameofthrones.fandom.com/wiki/Tom_Hopper"
+      ],
+      "character": "Dickon Tarly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Dickon_Tarly"
+      ],
+      "related_links": [],
+      "description": "Randyll's youngest son and heir.",
+      "raw_text": "Freddie Stroma (Season 6)/ Tom Hopper (Season 7) as Dickon Tarly , Randyll's youngest son and heir.",
+      "mapping_status": "mapped",
+      "mapped_to": "Sergei Tatischev"
+    },
+    {
+      "group": "House Tyrell",
+      "subgroup": "Vassals and allies of House Tyrell",
+      "actor": "Rebecca Benson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Rebecca_Benson"
+      ],
+      "character": "Talla Tarly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Talla_Tarly"
+      ],
+      "related_links": [],
+      "description": "Randyll's daughter.",
+      "raw_text": "Rebecca Benson as Talla Tarly , Randyll's daughter.",
+      "mapping_status": "mapped",
+      "mapped_to": "Irina Tatischeva"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Patrick Malahide",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Patrick_Malahide"
+      ],
+      "character": "Balon Greyjoy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Balon_Greyjoy"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Pyke"
+      ],
+      "description": "Lord of Pyke , father of Theon Greyjoy.",
+      "raw_text": "Patrick Malahide as Lord Balon Greyjoy , Lord of Pyke , father of Theon Greyjoy.",
+      "mapping_status": "mapped",
+      "mapped_to": "Stepan Stroganov"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Gemma Whelan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gemma_Whelan"
+      ],
+      "character": "Yara Greyjoy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Yara_Greyjoy"
+      ],
+      "related_links": [],
+      "description": "the only daughter of Lord Balon.",
+      "raw_text": "Gemma Whelan as Yara Greyjoy , the only daughter of Lord Balon.",
+      "mapping_status": "mapped",
+      "mapped_to": "Kira Stroganova"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Pilou Asbæk",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Pilou_Asb%C3%A6k"
+      ],
+      "character": "Euron Greyjoy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Euron_Greyjoy"
+      ],
+      "related_links": [],
+      "description": "a younger brother of Lord Balon.",
+      "raw_text": "Pilou Asbæk as Euron Greyjoy , a younger brother of Lord Balon.",
+      "mapping_status": "mapped",
+      "mapped_to": "Taras Stroganov"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Michael Feast",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Michael_Feast"
+      ],
+      "character": "Aeron Greyjoy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Aeron_Greyjoy"
+      ],
+      "related_links": [],
+      "description": "nicknamed \"Damphair,\" a younger brother of Lord Balon.",
+      "raw_text": "Michael Feast as Aeron Greyjoy , nicknamed \"Damphair,\" a younger brother of Lord Balon.",
+      "mapping_status": "mapped",
+      "mapped_to": "Trofim Stroganov"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Forbes KB",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Forbes_KB"
+      ],
+      "character": "Black Lorren",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Black_Lorren"
+      ],
+      "related_links": [],
+      "description": "a noted raider and reaver in the service of House Greyjoy.",
+      "raw_text": "Forbes KB as Black Lorren , a noted raider and reaver in the service of House Greyjoy.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vadim Potemkin"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Ralph Ineson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ralph_Ineson"
+      ],
+      "character": "Dagmer",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Dagmer"
+      ],
+      "related_links": [],
+      "description": "a noted raider, reaver and ship captain in the service of House Greyjoy.",
+      "raw_text": "Ralph Ineson as Dagmer , a noted raider, reaver and ship captain in the service of House Greyjoy.",
+      "mapping_status": "mapped",
+      "mapped_to": "Valentin Razumovsky"
+    },
+    {
+      "group": "House Greyjoy and retainers",
+      "subgroup": "",
+      "actor": "Grahame Fox",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Grahame_Fox"
+      ],
+      "character": "Ralf Kenning",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ralf_Kenning"
+      ],
+      "related_links": [],
+      "description": "an ironborn commander.",
+      "raw_text": "Grahame Fox as Ralf Kenning , an ironborn commander.",
+      "mapping_status": "mapped",
+      "mapped_to": "Valery Repnin"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "",
+      "actor": "Tobias Menzies",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tobias_Menzies"
+      ],
+      "character": "Edmure Tully",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Edmure_Tully"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Hoster_Tully",
+        "https://gameofthrones.fandom.com/wiki/Catelyn_Stark",
+        "https://gameofthrones.fandom.com/wiki/Lysa_Arryn"
+      ],
+      "description": "the son and heir of the ailing Lord Hoster Tully and the brother of Lady Catelyn Stark and Lady Lysa Arryn .",
+      "raw_text": "Tobias Menzies as Ser Edmure Tully , the son and heir of the ailing Lord Hoster Tully and the brother of Lady Catelyn Stark and Lady Lysa Arryn .",
+      "mapping_status": "mapped",
+      "mapped_to": "Vasily Trubetskoy"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "",
+      "actor": "Clive Russell",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Clive_Russell"
+      ],
+      "character": "Brynden Tully",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Brynden_Tully"
+      ],
+      "related_links": [],
+      "description": "Lord Hoster's younger brother, a famous knight known as \"the Blackfish\" for his strained relationship with his brother.",
+      "raw_text": "Clive Russell as Ser Brynden Tully , Lord Hoster's younger brother, a famous knight known as \"the Blackfish\" for his strained relationship with his brother.",
+      "mapping_status": "mapped",
+      "mapped_to": "Viktor Trubetskoy"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "David Bradley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/David_Bradley"
+      ],
+      "character": "Walder Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Walder_Frey"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Twins"
+      ],
+      "description": "Lord of the Twins , an old and prickly vassal of House Tully, past ninety years of age.",
+      "raw_text": "David Bradley as Lord Walder Frey , Lord of the Twins , an old and prickly vassal of House Tully, past ninety years of age.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vladimir Demidov"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Kelly Long",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kelly_Long"
+      ],
+      "character": "Joyeuse Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Joyeuse_Frey"
+      ],
+      "related_links": [],
+      "description": "Walder Frey's eigth wife.",
+      "raw_text": "Kelly Long as Joyeuse Frey , Walder Frey's eigth wife.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ksenia Demidova"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Tim Plester",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tim_Plester"
+      ],
+      "character": "\"Black Walder\" Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Walder_Rivers"
+      ],
+      "related_links": [],
+      "description": "a bastard son of Walder Frey and a noted warrior with a hot temper.",
+      "raw_text": "Tim Plester as \"Black Walder\" Frey , a bastard son of Walder Frey and a noted warrior with a hot temper.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vsevolod Demidov"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Tom Brooke (Season 3)/ Daniel Tuite (Season 6)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tom_Brooke",
+        "https://gameofthrones.fandom.com/wiki/Daniel_Tuite"
+      ],
+      "character": "\"Lame Lothar\" Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lothar_Frey"
+      ],
+      "related_links": [],
+      "description": "a son of Walder Frey, nicknamed after the limp he has in his left leg.",
+      "raw_text": "Tom Brooke (Season 3)/ Daniel Tuite (Season 6) as \"Lame Lothar\" Frey , a son of Walder Frey, nicknamed after the limp he has in his left leg.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yakov Demidov"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Alexandra Dowling",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Alexandra_Dowling"
+      ],
+      "character": "Roslin Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Roslin_Tully"
+      ],
+      "related_links": [],
+      "description": "one of Lord Frey's youngest daughters.",
+      "raw_text": "Alexandra Dowling as Roslin Frey , one of Lord Frey's youngest daughters.",
+      "mapping_status": "mapped",
+      "mapped_to": "Larisa Demidova"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Elizabeth Webster",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Elizabeth_Webster"
+      ],
+      "character": "Walda Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Walda_Bolton"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Roose_Bolton"
+      ],
+      "description": "one of Lord Frey's granddaughters, recently married to Roose Bolton .",
+      "raw_text": "Elizabeth Webster as Walda Frey , one of Lord Frey's granddaughters, recently married to Roose Bolton .",
+      "mapping_status": "mapped",
+      "mapped_to": "Lidia Demidova"
+    },
+    {
+      "group": "House Tully and retainers",
+      "subgroup": "House Frey and retainers",
+      "actor": "Lucy Hayes",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Lucy_Hayes"
+      ],
+      "character": "Kitty Frey",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Kitty_Frey"
+      ],
+      "related_links": [],
+      "description": "Walder Frey's ninth wife.",
+      "raw_text": "Lucy Hayes as Kitty Frey , Walder Frey's ninth wife.",
+      "mapping_status": "mapped",
+      "mapped_to": "Lyubov Demidova"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Alexander Siddig",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Alexander_Siddig"
+      ],
+      "character": "Doran Martell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Doran_Martell"
+      ],
+      "related_links": [],
+      "description": "the ruling Prince of Dorne, who is heavily suffering from gout and confined to a wheelchair.",
+      "raw_text": "Alexander Siddig as Prince Doran Martell , the ruling Prince of Dorne, who is heavily suffering from gout and confined to a wheelchair.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yaroslav Golitsyn"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Toby Sebastian",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Toby_Sebastian"
+      ],
+      "character": "Trystane Martell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Trystane_Martell"
+      ],
+      "related_links": [],
+      "description": "Prince Doran’s son and heir to Dorne.",
+      "raw_text": "Toby Sebastian as Prince Trystane Martell , Prince Doran’s son and heir to Dorne.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yegor Golitsyn"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Pedro Pascal",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Pedro_Pascal"
+      ],
+      "character": "Oberyn Martell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Oberyn_Martell"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Dorne"
+      ],
+      "description": "popularly known as the Red Viper. Younger brother of the ruling Prince Doran Martell of Dorne .",
+      "raw_text": "Pedro Pascal as Prince Oberyn Martell , popularly known as the Red Viper. Younger brother of the ruling Prince Doran Martell of Dorne .",
+      "mapping_status": "mapped",
+      "mapped_to": "Yuriy Golitsyn"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Indira Varma",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Indira_Varma"
+      ],
+      "character": "Ellaria Sand",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ellaria_Sand"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Paramour",
+        "https://gameofthrones.fandom.com/wiki/Sand_Snakes"
+      ],
+      "description": "Oberyn's paramour and mother to several of his children, the Sand Snakes .",
+      "raw_text": "Indira Varma as Ellaria Sand , Oberyn's paramour and mother to several of his children, the Sand Snakes .",
+      "mapping_status": "mapped",
+      "mapped_to": "Mariya Solovyova"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Keisha Castle-Hughes",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Keisha_Castle-Hughes"
+      ],
+      "character": "Obara Sand",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Obara_Sand"
+      ],
+      "related_links": [],
+      "description": "a fearsome warrior and the eldest bastard daughter of Prince Oberyn.",
+      "raw_text": "Keisha Castle-Hughes as Obara Sand , a fearsome warrior and the eldest bastard daughter of Prince Oberyn.",
+      "mapping_status": "mapped",
+      "mapped_to": "Marta Solovyova"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Jessica Henwick",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jessica_Henwick"
+      ],
+      "character": "Nymeria Sand",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Nymeria_Sand"
+      ],
+      "related_links": [],
+      "description": "the second eldest of Prince Oberyn’s bastard daughters.",
+      "raw_text": "Jessica Henwick as Nymeria Sand , the second eldest of Prince Oberyn’s bastard daughters.",
+      "mapping_status": "mapped",
+      "mapped_to": "Milena Solovyova"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Rosabell Laurenti Sellers",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Rosabell_Laurenti_Sellers"
+      ],
+      "character": "Tyene Sand",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tyene_Sand"
+      ],
+      "related_links": [],
+      "description": "the daughter of Prince Oberyn by Ellaria Sand, his paramour.",
+      "raw_text": "Rosabell Laurenti Sellers as Tyene Sand , the daughter of Prince Oberyn by Ellaria Sand, his paramour.",
+      "mapping_status": "mapped",
+      "mapped_to": "Natalia Solovyova"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "DeObia Oparei",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/DeObia_Oparei"
+      ],
+      "character": "Areo Hotah",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Areo_Hotah"
+      ],
+      "related_links": [],
+      "description": "the long-serving captain of Doran Martell’s palace guard, renowned for his loyalty and his longaxe.",
+      "raw_text": "DeObia Oparei as Areo Hotah , the long-serving captain of Doran Martell’s palace guard, renowned for his loyalty and his longaxe.",
+      "mapping_status": "mapped",
+      "mapped_to": "Zakhar Rumyantsev"
+    },
+    {
+      "group": "House Martell and retainers",
+      "subgroup": "",
+      "actor": "Colin Azzopardi",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Colin_Azzopardi"
+      ],
+      "character": "Caleotte",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Caleotte"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Order_of_Maesters",
+        "https://gameofthrones.fandom.com/wiki/Sunspear"
+      ],
+      "description": "the maester at Sunspear .",
+      "raw_text": "Colin Azzopardi as Maester Caleotte , the maester at Sunspear .",
+      "mapping_status": "mapped",
+      "mapped_to": "Zinovy Shuisky"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Jerome Flynn",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jerome_Flynn"
+      ],
+      "character": "Bronn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Bronn"
+      ],
+      "related_links": [],
+      "description": "a sellsword met at the Crossroads Inn.",
+      "raw_text": "Jerome Flynn as Bronn , a sellsword met at the Crossroads Inn.",
+      "mapping_status": "mapped",
+      "mapped_to": "Alexei Skobelev"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Emun Elliott",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Emun_Elliott"
+      ],
+      "character": "Marillion",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Marillion"
+      ],
+      "related_links": [],
+      "description": "a singer and troubadour met at the Crossroads Inn.",
+      "raw_text": "Emun Elliott as Marillion , a singer and troubadour met at the Crossroads Inn.",
+      "mapping_status": "mapped",
+      "mapped_to": "Andrei Stolypin"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Sibel Kekilli",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sibel_Kekilli"
+      ],
+      "character": "Shae",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Shae"
+      ],
+      "related_links": [],
+      "description": "a camp-follower and prostitute attached to the Lannister army.",
+      "raw_text": "Sibel Kekilli as Shae , a camp-follower and prostitute attached to the Lannister army.",
+      "mapping_status": "mapped",
+      "mapped_to": "Nina Suvorova"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Mark Lewis Jones",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mark_Lewis_Jones"
+      ],
+      "character": "Shagga",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Shagga"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Mountains_of_the_Moon"
+      ],
+      "description": "a warrior clan chief from the Mountains of the Moon .",
+      "raw_text": "Mark Lewis Jones as Shagga , a warrior clan chief from the Mountains of the Moon .",
+      "mapping_status": "mapped",
+      "mapped_to": "Anton Trubetskoy"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Oona Chaplin",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Oona_Chaplin"
+      ],
+      "character": "Talisa Maegyr",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Talisa_Stark"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Volantis"
+      ],
+      "description": "a battlefield nurse originally from Volantis .",
+      "raw_text": "Oona Chaplin as Talisa Maegyr , a battlefield nurse originally from Volantis .",
+      "mapping_status": "mapped",
+      "mapped_to": "Olga Uvarova"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Paul Kaye",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Paul_Kaye"
+      ],
+      "character": "Thoros",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Thoros"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Myr"
+      ],
+      "description": "of Myr , a red priest, warrior, famed drinker and friend of King Robert.",
+      "raw_text": "Paul Kaye as Thoros of Myr , a red priest, warrior, famed drinker and friend of King Robert.",
+      "mapping_status": "mapped",
+      "mapped_to": "Arkady Vorontsov"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Philip McGinley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Philip_McGinley"
+      ],
+      "character": "Anguy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Anguy"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Brotherhood_Without_Banners"
+      ],
+      "description": "an exceptionally-skilled archer of the Brotherhood Without Banners .",
+      "raw_text": "Philip McGinley as Anguy , an exceptionally-skilled archer of the Brotherhood Without Banners .",
+      "mapping_status": "mapped",
+      "mapped_to": "Arseny Witte"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Anton Lesser",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Anton_Lesser"
+      ],
+      "character": "Qyburn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Qyburn"
+      ],
+      "related_links": [],
+      "description": "a disgraced maester.",
+      "raw_text": "Anton Lesser as Qyburn , a disgraced maester.",
+      "mapping_status": "mapped",
+      "mapped_to": "Afanasy Yusupov"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Ian McShane",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_McShane"
+      ],
+      "character": "Ray",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ray"
+      ],
+      "related_links": [],
+      "description": "Brother Ray , a former mercenary who now serves the faith.",
+      "raw_text": "Ian McShane as Brother Ray , a former mercenary who now serves the faith.",
+      "mapping_status": "mapped",
+      "mapped_to": "Bogdan Apraksin"
+    },
+    {
+      "group": "In the Riverlands and the Vale",
+      "subgroup": "",
+      "actor": "Jóhannes Haukur Jóhannesson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/J%C3%B3hannes_Haukur_J%C3%B3hannesson"
+      ],
+      "character": "Lem",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lem"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Brotherhood_Without_Banners"
+      ],
+      "description": "a member of the Brotherhood Without Banners .",
+      "raw_text": "Jóhannes Haukur Jóhannesson as Lem , a member of the Brotherhood Without Banners .",
+      "mapping_status": "mapped",
+      "mapped_to": "Boris Bestuzhev"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Aidan Gillen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Aidan_Gillen"
+      ],
+      "character": "Petyr Baelish",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Petyr_Baelish"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Master_of_Coin",
+        "https://gameofthrones.fandom.com/wiki/Small_Council"
+      ],
+      "description": "the Master of Coin on the king's Small Council , also known as \"Littlefinger\" for his birthplace.",
+      "raw_text": "Aidan Gillen as Lord Petyr Baelish , the Master of Coin on the king's Small Council , also known as \"Littlefinger\" for his birthplace.",
+      "mapping_status": "mapped",
+      "mapped_to": "Daniil Bestuzhev"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Julian Glover",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Julian_Glover"
+      ],
+      "character": "Pycelle",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Pycelle"
+      ],
+      "related_links": [],
+      "description": "the master of wisdom on the king's Small Council.",
+      "raw_text": "Julian Glover as Grand Maester Pycelle , the master of wisdom on the king's Small Council.",
+      "mapping_status": "mapped",
+      "mapped_to": "Demyan Bagration"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Conleth Hill",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Conleth_Hill"
+      ],
+      "character": "Varys",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Varys"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Eunuch",
+        "https://gameofthrones.fandom.com/wiki/Master_of_Whisperers"
+      ],
+      "description": "a eunuch and the Master of Whisperers on the king's Small Council, also known as \"the Spider\" for his reputation.",
+      "raw_text": "Conleth Hill as Varys , a eunuch and the Master of Whisperers on the king's Small Council, also known as \"the Spider\" for his reputation.",
+      "mapping_status": "mapped",
+      "mapped_to": "Dmitry Dashkov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Jonathan Pryce",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jonathan_Pryce"
+      ],
+      "character": "High Sparrow",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/High_Sparrow"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Sparrows"
+      ],
+      "description": "the High Sparrow , the leader of the religious movement known as the Sparrows .",
+      "raw_text": "Jonathan Pryce as the High Sparrow , the leader of the religious movement known as the Sparrows .",
+      "mapping_status": "mapped",
+      "mapped_to": "Lavr Patrikeev"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Ian McElhinney",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_McElhinney"
+      ],
+      "character": "Barristan Selmy",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Barristan_Selmy"
+      ],
+      "related_links": [],
+      "description": "Commander Barristan Selmy , the head of the Kingsguard.",
+      "raw_text": "Ian McElhinney as Lord Commander Barristan Selmy , the head of the Kingsguard.",
+      "mapping_status": "mapped",
+      "mapped_to": "Egor Suvorov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Ian Beattie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_Beattie"
+      ],
+      "character": "Meryn Trant",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Meryn_Trant"
+      ],
+      "related_links": [],
+      "description": "a knight of the Kingsguard.",
+      "raw_text": "Ian Beattie as Ser Meryn Trant , a knight of the Kingsguard.",
+      "mapping_status": "mapped",
+      "mapped_to": "Emelyan Derzhavin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Wilko Johnson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Wilko_Johnson"
+      ],
+      "character": "Ilyn Payne",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ilyn_Payne"
+      ],
+      "related_links": [],
+      "description": "the king's headsman and executioner.",
+      "raw_text": "Wilko Johnson as Ser Ilyn Payne , the king's headsman and executioner.",
+      "mapping_status": "mapped",
+      "mapped_to": "Fedor Panin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Richard Dormer",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_Dormer"
+      ],
+      "character": "Beric Dondarrion",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Beric_Dondarrion"
+      ],
+      "related_links": [],
+      "description": "a young lord and popular tourney knight.",
+      "raw_text": "Richard Dormer as Lord Beric Dondarrion , a young lord and popular tourney knight.",
+      "mapping_status": "mapped",
+      "mapped_to": "Filipp Derzhavin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Dominic Carter",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Dominic_Carter"
+      ],
+      "character": "Janos Slynt",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Janos_Slynt"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/City_Watch_of_King%27s_Landing"
+      ],
+      "description": "Commander Janos Slynt , the commander of the City Watch of King's Landing .",
+      "raw_text": "Dominic Carter as Commander Janos Slynt , the commander of the City Watch of King's Landing .",
+      "mapping_status": "mapped",
+      "mapped_to": "Gavriil Stolypin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Miltos Yerolemou",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Miltos_Yerolemou"
+      ],
+      "character": "Syrio Forel",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Syrio_Forel"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Braavos"
+      ],
+      "description": "a master swordsman from Braavos .",
+      "raw_text": "Miltos Yerolemou as Syrio Forel , a master swordsman from Braavos .",
+      "mapping_status": "mapped",
+      "mapped_to": "Georgy Fonvizin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Andrew Wilde",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Andrew_Wilde"
+      ],
+      "character": "Tobho Mott",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tobho_Mott"
+      ],
+      "related_links": [],
+      "description": "a master armorer and smith.",
+      "raw_text": "Andrew Wilde as Tobho Mott , a master armorer and smith.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gleb Mordvinov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Joe Dempsie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Joe_Dempsie"
+      ],
+      "character": "Gendry",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Gendry_Baratheon"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Bastard"
+      ],
+      "description": "Mott's apprentice who is secretly a bastard of King Robert.",
+      "raw_text": "Joe Dempsie as Gendry , Mott's apprentice who is secretly a bastard of King Robert.",
+      "mapping_status": "mapped",
+      "mapped_to": "Grigory Dolgorukov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Will Tudor",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Will_Tudor"
+      ],
+      "character": "Olyvar",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Olyvar"
+      ],
+      "related_links": [],
+      "description": "a male prostitute and spy.",
+      "raw_text": "Will Tudor as Olyvar , a male prostitute and spy.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ignat Gagarin"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Sahara Knite",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sahara_Knite"
+      ],
+      "character": "Armeca",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Armeca"
+      ],
+      "related_links": [],
+      "description": "a female prostitute.",
+      "raw_text": "Sahara Knite as Armeca , a female prostitute.",
+      "mapping_status": "mapped",
+      "mapped_to": "Pelageya Golitsyna"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Josephine Gillan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Josephine_Gillan"
+      ],
+      "character": "Marei",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Marei"
+      ],
+      "related_links": [],
+      "description": "a female prostitute.",
+      "raw_text": "Josephine Gillan as Marei , a female prostitute.",
+      "mapping_status": "mapped",
+      "mapped_to": "Polina Karamzina"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Elizabeth Cadwallader",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Elizabeth_Cadwallader"
+      ],
+      "character": "Lollys Stokeworth",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lollys_Stokeworth"
+      ],
+      "related_links": [],
+      "description": "a simple-minded noblewoman.",
+      "raw_text": "Elizabeth Cadwallader as Lollys Stokeworth , a simple-minded noblewoman.",
+      "mapping_status": "mapped",
+      "mapped_to": "Praskovya Skobeleva"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Eros Vlahos",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Eros_Vlahos"
+      ],
+      "character": "Lommy Greenhands",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lommy"
+      ],
+      "related_links": [],
+      "description": "a dyer's apprentice.",
+      "raw_text": "Eros Vlahos as Lommy Greenhands , a dyer's apprentice.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ilya Kornilov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Ben Hawkey",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ben_Hawkey"
+      ],
+      "character": "Hot Pie",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hot_Pie"
+      ],
+      "related_links": [],
+      "description": "a baker's apprentice.",
+      "raw_text": "Ben Hawkey as Hot Pie , a baker's apprentice.",
+      "mapping_status": "mapped",
+      "mapped_to": "Kirill Kutuzov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Andy Beckwith",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Andy_Beckwith"
+      ],
+      "character": "Rorge",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rorge"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Red_Keep"
+      ],
+      "description": "a street criminal imprisoned in the Red Keep .",
+      "raw_text": "Andy Beckwith as Rorge , a street criminal imprisoned in the Red Keep .",
+      "mapping_status": "mapped",
+      "mapped_to": "Klim Lazarev"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Gerard Jordan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gerard_Jordan"
+      ],
+      "character": "Biter",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Biter"
+      ],
+      "related_links": [],
+      "description": "a street criminal imprisoned in the Red Keep.",
+      "raw_text": "Gerard Jordan as Biter , a street criminal imprisoned in the Red Keep.",
+      "mapping_status": "mapped",
+      "mapped_to": "Konstantin Lomonosov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Tom Wlaschiha",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tom_Wlaschiha"
+      ],
+      "character": "Jaqen H'ghar",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jaqen_H%27ghar"
+      ],
+      "related_links": [],
+      "description": "a prisoner in the Red Keep.",
+      "raw_text": "Tom Wlaschiha as Jaqen H'ghar , a prisoner in the Red Keep.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yakov Bezborodko"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Roy Dotrice",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Roy_Dotrice"
+      ],
+      "character": "Hallyne",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hallyne"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Alchemists%27_Guild"
+      ],
+      "description": "Wisdom Hallyne , the head of the Alchemists' Guild .",
+      "raw_text": "Roy Dotrice as Wisdom Hallyne , the head of the Alchemists' Guild .",
+      "mapping_status": "mapped",
+      "mapped_to": "Lavr Menshikov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Paul Bentley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Paul_Bentley"
+      ],
+      "character": "High Septon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/High_Septon_(Joffrey)"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Faith_of_the_Seven"
+      ],
+      "description": "the High Septon , the head of the Faith of the Seven .",
+      "raw_text": "Paul Bentley as the High Septon , the head of the Faith of the Seven .",
+      "mapping_status": "mapped",
+      "mapped_to": "Pavel Nikonov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Hannah Waddingham",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Hannah_Waddingham"
+      ],
+      "character": "Unella",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Unella"
+      ],
+      "related_links": [],
+      "description": "a devoted follower of the High Sparrow.",
+      "raw_text": "Hannah Waddingham as Septa Unella , a devoted follower of the High Sparrow.",
+      "mapping_status": "mapped",
+      "mapped_to": "Raisa Milutina"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Tony Way",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Tony_Way"
+      ],
+      "character": "Dontos Hollard",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Dontos_Hollard"
+      ],
+      "related_links": [],
+      "description": "a knight in service to the crown.",
+      "raw_text": "Tony Way as Ser Dontos Hollard , a knight in service to the crown.",
+      "mapping_status": "mapped",
+      "mapped_to": "Leonid Homyakov"
+    },
+    {
+      "group": "In King's Landing",
+      "subgroup": "",
+      "actor": "Sara Dylan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sara_Dylan"
+      ],
+      "character": "Bernadette",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Bernadette"
+      ],
+      "related_links": [],
+      "description": "a handmaiden of House Lannister.",
+      "raw_text": "Sara Dylan as Bernadette , a handmaiden of House Lannister.",
+      "mapping_status": "mapped",
+      "mapped_to": "Sofia Naryshkina"
+    },
+    {
+      "group": "In Oldtown",
+      "subgroup": "",
+      "actor": "Jim Broadbent",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jim_Broadbent"
+      ],
+      "character": "Ebrose",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ebrose"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Archmaester"
+      ],
+      "description": "one of the governing members of the Citadel.",
+      "raw_text": "Jim Broadbent as Archmaester Ebrose , one of the governing members of the Citadel.",
+      "mapping_status": "mapped",
+      "mapped_to": "Lev Obolensky"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "James Cosmo",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/James_Cosmo"
+      ],
+      "character": "Jeor Mormont",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jeor_Mormont"
+      ],
+      "related_links": [],
+      "description": "Commander Jeor Mormont , commander of the Night's Watch.",
+      "raw_text": "James Cosmo as Lord Commander Jeor Mormont , commander of the Night's Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Luka Mamonov"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Owen Teale",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Owen_Teale"
+      ],
+      "character": "Alliser Thorne",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Alliser_Thorne"
+      ],
+      "related_links": [],
+      "description": "in charge of training new recruits.",
+      "raw_text": "Owen Teale as Ser Alliser Thorne , in charge of training new recruits.",
+      "mapping_status": "mapped",
+      "mapped_to": "Makar Tchaadayev"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Peter Vaughan",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Peter_Vaughan"
+      ],
+      "character": "Aemon",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Aemon"
+      ],
+      "related_links": [],
+      "description": "Lord Mormont's closest adviser.",
+      "raw_text": "Peter Vaughan as Maester Aemon , Lord Mormont's closest adviser.",
+      "mapping_status": "mapped",
+      "mapped_to": "Akim Romanov"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Michael Condron",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Michael_Condron"
+      ],
+      "character": "Bowen Marsh",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Bowen_Marsh"
+      ],
+      "related_links": [],
+      "description": "the First Steward of the Watch.",
+      "raw_text": "Michael Condron as Bowen Marsh , the First Steward of the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Matvey Mordvinov"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Brian Fortune",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Brian_Fortune"
+      ],
+      "character": "Othell Yarwyck",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Othell_Yarwyck"
+      ],
+      "related_links": [],
+      "description": "the First Builder of the Watch.",
+      "raw_text": "Brian Fortune as Othell Yarwyck , the First Builder of the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Nikita Panin"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Francis Magee",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Francis_Magee"
+      ],
+      "character": "Yoren",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Yoren"
+      ],
+      "related_links": [],
+      "description": "a recruiter for the Watch.",
+      "raw_text": "Francis Magee as Yoren , a recruiter for the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Nikolai Potemkin"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Josef Altin",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Josef_Altin"
+      ],
+      "character": "Pypar",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Pypar"
+      ],
+      "related_links": [],
+      "description": "a fresh recruit to the Watch, a former actor.",
+      "raw_text": "Josef Altin as Pypar , a fresh recruit to the Watch, a former actor.",
+      "mapping_status": "mapped",
+      "mapped_to": "Oleg Razumovsky"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Mark Stanley",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mark_Stanley"
+      ],
+      "character": "Grenn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Grenn"
+      ],
+      "related_links": [],
+      "description": "a fresh recruit to the Watch.",
+      "raw_text": "Mark Stanley as Grenn , a fresh recruit to the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Osip Repnin"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Luke Barnes",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Luke_Barnes"
+      ],
+      "character": "Rast",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rast"
+      ],
+      "related_links": [],
+      "description": "a fresh recruit to the Watch, arrested for rape.",
+      "raw_text": "Luke Barnes as Rast , a fresh recruit to the Watch, arrested for rape.",
+      "mapping_status": "mapped",
+      "mapped_to": "Pavel Rumyantsev"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Ben Crompton",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ben_Crompton"
+      ],
+      "character": "Eddison Tollett",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Eddison_Tollett"
+      ],
+      "related_links": [],
+      "description": "a squire, noted for his pessimistic sense of humor.",
+      "raw_text": "Ben Crompton as Eddison Tollett , a squire, noted for his pessimistic sense of humor.",
+      "mapping_status": "mapped",
+      "mapped_to": "Platon Tolstoy"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Simon Armstrong",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Simon_Armstrong"
+      ],
+      "character": "Qhorin",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Qhorin"
+      ],
+      "related_links": [],
+      "description": "one of the Watch's most respected rangers.",
+      "raw_text": "Simon Armstrong as Qhorin , one of the Watch's most respected rangers.",
+      "mapping_status": "mapped",
+      "mapped_to": "Prokhor Shuisky"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "J.J. Murphy",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/J.J._Murphy"
+      ],
+      "character": "Denys Mallister",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Denys_Mallister"
+      ],
+      "related_links": [],
+      "description": "a veteran member of the Watch.",
+      "raw_text": "J.J. Murphy as Ser Denys Mallister , a veteran member of the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ratmir Milutin"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Burn Gorman",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Burn_Gorman"
+      ],
+      "character": "Karl Tanner",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Karl_Tanner"
+      ],
+      "related_links": [],
+      "description": "a ranger and former assassin from King's Landing.",
+      "raw_text": "Burn Gorman as Karl Tanner , a ranger and former assassin from King's Landing.",
+      "mapping_status": "mapped",
+      "mapped_to": "Rodion Skobelev"
+    },
+    {
+      "group": "In the Night's Watch",
+      "subgroup": "",
+      "actor": "Brenock O'Connor",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Brenock_O%27Connor"
+      ],
+      "character": "Olly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Olly"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Gift"
+      ],
+      "description": "a young boy from the Gift .",
+      "raw_text": "Brenock O'Connor as Olly , a young boy from the Gift .",
+      "mapping_status": "mapped",
+      "mapped_to": "Roman Stolypin"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Natalia Tena",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Natalia_Tena"
+      ],
+      "character": "Osha",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Osha"
+      ],
+      "related_links": [],
+      "description": "a wildling warrior-woman.",
+      "raw_text": "Natalia Tena as Osha , a wildling warrior-woman.",
+      "mapping_status": "mapped",
+      "mapped_to": "Tamara Suvorova"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Robert Pugh",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Robert_Pugh"
+      ],
+      "character": "Craster",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Craster"
+      ],
+      "related_links": [],
+      "description": "a wildling whose keep provides a safehaven for rangers of the Watch.",
+      "raw_text": "Robert Pugh as Craster , a wildling whose keep provides a safehaven for rangers of the Watch.",
+      "mapping_status": "mapped",
+      "mapped_to": "Rostislav Trubetskoy"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Hannah Murray",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Hannah_Murray"
+      ],
+      "character": "Gilly",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Gilly"
+      ],
+      "related_links": [],
+      "description": "one of Craster's daughters.",
+      "raw_text": "Hannah Murray as Gilly , one of Craster's daughters.",
+      "mapping_status": "mapped",
+      "mapped_to": "Taisiya Uvarova"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Rose Leslie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Rose_Leslie"
+      ],
+      "character": "Ygritte",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ygritte"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Mance_Rayder"
+      ],
+      "description": "a wildling warrior-woman in the service of Mance Rayder .",
+      "raw_text": "Rose Leslie as Ygritte , a wildling warrior-woman in the service of Mance Rayder .",
+      "mapping_status": "mapped",
+      "mapped_to": "Uliana Vorontsova"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Edward Dogliani (Seasons 2-3)/ Ross O'Hennessy (Season 5)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Edward_Dogliani",
+        "https://gameofthrones.fandom.com/wiki/Ross_O%27Hennessy"
+      ],
+      "character": "Lord of Bones",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lord_of_Bones"
+      ],
+      "related_links": [],
+      "description": "the Lord of Bones , a famed wildling warrior.",
+      "raw_text": "Edward Dogliani (Seasons 2-3)/ Ross O'Hennessy (Season 5) as the Lord of Bones , a famed wildling warrior.",
+      "mapping_status": "mapped",
+      "mapped_to": "Klim Kostomarov"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Mackenzie Crook",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mackenzie_Crook"
+      ],
+      "character": "Orell",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Orell"
+      ],
+      "related_links": [],
+      "description": "a sinister wildling with unnatural powers.",
+      "raw_text": "Mackenzie Crook as Orell , a sinister wildling with unnatural powers.",
+      "mapping_status": "mapped",
+      "mapped_to": "Ruslan Witte"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Kristofer Hivju",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Kristofer_Hivju"
+      ],
+      "character": "Tormund",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tormund"
+      ],
+      "related_links": [],
+      "description": "a charismatic wildling leader.",
+      "raw_text": "Kristofer Hivju as Tormund , a charismatic wildling leader.",
+      "mapping_status": "mapped",
+      "mapped_to": "Semyon Apraksin"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Ciarán Hinds",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ciar%C3%A1n_Hinds"
+      ],
+      "character": "Mance Rayder",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mance_Rayder"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/King-Beyond-the-Wall"
+      ],
+      "description": "the King-Beyond-the-Wall , the leader of all the wildlings by acclamation.",
+      "raw_text": "Ciarán Hinds as Mance Rayder , the King-Beyond-the-Wall , the leader of all the wildlings by acclamation.",
+      "mapping_status": "mapped",
+      "mapped_to": "Serafim Bestuzhev"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Yuri Kolokolnikov",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Yuri_Kolokolnikov"
+      ],
+      "character": "Styr",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Styr"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Thenns"
+      ],
+      "description": "the Magnar of Thenn .",
+      "raw_text": "Yuri Kolokolnikov as Styr , the Magnar of Thenn .",
+      "mapping_status": "mapped",
+      "mapped_to": "Sergei Bagration"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Neil Fingleton",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Neil_Fingleton"
+      ],
+      "character": "Mag Mar Tun Doh Weg",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mag_Mar_Tun_Doh_Weg"
+      ],
+      "related_links": [],
+      "description": "a Giant.",
+      "raw_text": "Neil Fingleton as Mag Mar Tun Doh Weg , a Giant.",
+      "mapping_status": "mapped",
+      "mapped_to": "Makar Velikanov"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Struan Rodger (Season 4)/ Max von Sydow (Season 6)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Struan_Rodger",
+        "https://gameofthrones.fandom.com/wiki/Max_von_Sydow"
+      ],
+      "character": "Brynden Rivers",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Brynden_Rivers"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Three-Eyed_Raven"
+      ],
+      "description": "the Three-Eyed Raven .",
+      "raw_text": "Struan Rodger (Season 4)/ Max von Sydow (Season 6) as Brynden Rivers , the Three-Eyed Raven .",
+      "mapping_status": "mapped",
+      "mapped_to": "Stepan Dashkov"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Octavia Alexandru (Season 4)/ Kae Alexander (Season 6)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Octavia_Alexandru",
+        "https://gameofthrones.fandom.com/wiki/Kae_Alexander"
+      ],
+      "character": "Leaf",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Leaf"
+      ],
+      "related_links": [],
+      "description": "a child of the forest.",
+      "raw_text": "Octavia Alexandru (Season 4)/ Kae Alexander (Season 6) as Leaf , a child of the forest.",
+      "mapping_status": "mapped",
+      "mapped_to": "Valentina Derzhavina"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Richard Brake (Seasons 4-5)/ Vladimír Furdík (Seasons 6-8)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_Brake",
+        "https://gameofthrones.fandom.com/wiki/Vladim%C3%ADr_Furd%C3%ADk"
+      ],
+      "character": "Night King",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Night_King"
+      ],
+      "related_links": [],
+      "description": "the Night King , the leader of the White Walkers.",
+      "raw_text": "Richard Brake (Seasons 4-5)/ Vladimír Furdík (Seasons 6-8) as the Night King , the leader of the White Walkers.",
+      "mapping_status": "mapped",
+      "mapped_to": "Midnight Regent"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Ian Whyte",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_Whyte"
+      ],
+      "character": "Wun Weg Wun Dar Wun",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Wun_Weg_Wun_Dar_Wun"
+      ],
+      "related_links": [],
+      "description": "a Giant.",
+      "raw_text": "Ian Whyte as Wun Weg Wun Dar Wun , a Giant.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vasily Bolshakov"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Birgitte Hjort Sørensen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Birgitte_Hjort_S%C3%B8rensen"
+      ],
+      "character": "Karsi",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Karsi"
+      ],
+      "related_links": [],
+      "description": "a Wildling leader.",
+      "raw_text": "Birgitte Hjort Sørensen as Karsi , a Wildling leader.",
+      "mapping_status": "mapped",
+      "mapped_to": "Varvara Dolgorukova"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Zahary Baharov",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Zahary_Baharov"
+      ],
+      "character": "Loboda",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Loboda"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Thenns"
+      ],
+      "description": "a Thenn .",
+      "raw_text": "Zahary Baharov as Loboda , a Thenn .",
+      "mapping_status": "mapped",
+      "mapped_to": "Taras Gagarin"
+    },
+    {
+      "group": "Beyond the Wall",
+      "subgroup": "",
+      "actor": "Murray McArthur",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Murray_McArthur"
+      ],
+      "character": "Dim Dalba",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Dim_Dalba"
+      ],
+      "related_links": [],
+      "description": "a Wildling elder.",
+      "raw_text": "Murray McArthur as Dim Dalba , a Wildling elder.",
+      "mapping_status": "mapped",
+      "mapped_to": "Timofey Golitsyn"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Jason Momoa",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jason_Momoa"
+      ],
+      "character": "Drogo",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Drogo"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Khal",
+        "https://gameofthrones.fandom.com/wiki/Dothraki"
+      ],
+      "description": "the leading warlord of the Dothraki .",
+      "raw_text": "Jason Momoa as Khal Drogo , the leading warlord of the Dothraki .",
+      "mapping_status": "mapped",
+      "mapped_to": "Demid Odoevsky"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Dar Salim",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Dar_Salim"
+      ],
+      "character": "Qotho",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Qotho"
+      ],
+      "related_links": [],
+      "description": "one of Drogo's bloodriders.",
+      "raw_text": "Dar Salim as Qotho , one of Drogo's bloodriders.",
+      "mapping_status": "mapped",
+      "mapped_to": "Trofim Karamzin"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Elyes Gabel",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Elyes_Gabel"
+      ],
+      "character": "Rakharo",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rakharo"
+      ],
+      "related_links": [],
+      "description": "a Dothraki warrior in Daenerys's service as a bodyguard.",
+      "raw_text": "Elyes Gabel as Rakharo , a Dothraki warrior in Daenerys's service as a bodyguard.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vadim Kornilov"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Steven Cole",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Steven_Cole"
+      ],
+      "character": "Kovarro",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Kovarro"
+      ],
+      "related_links": [],
+      "description": "a Dothraki warrior.",
+      "raw_text": "Steven Cole as Kovarro , a Dothraki warrior.",
+      "mapping_status": "mapped",
+      "mapped_to": "Valentin Kutuzov"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Amrita Acharia",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Amrita_Acharia"
+      ],
+      "character": "Irri",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Irri"
+      ],
+      "related_links": [],
+      "description": "a handmaiden gifted to Daenerys.",
+      "raw_text": "Amrita Acharia as Irri , a handmaiden gifted to Daenerys.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vera Lazareva"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Roxanne McKee",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Roxanne_McKee"
+      ],
+      "character": "Doreah",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Doreah"
+      ],
+      "related_links": [],
+      "description": "a servant and adviser gifted to Daenerys.",
+      "raw_text": "Roxanne McKee as Doreah , a servant and adviser gifted to Daenerys.",
+      "mapping_status": "mapped",
+      "mapped_to": "Viktoria Lomonosova"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Ivailo Dimitrov",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ivailo_Dimitrov"
+      ],
+      "character": "Mago",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mago"
+      ],
+      "related_links": [],
+      "description": "a Dothraki warrior.",
+      "raw_text": "Ivailo Dimitrov as Mago , a Dothraki warrior.",
+      "mapping_status": "mapped",
+      "mapped_to": "Valery Menshikov"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Joe Naufahu",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Joe_Naufahu"
+      ],
+      "character": "Moro",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Moro"
+      ],
+      "related_links": [],
+      "description": "a warlord of the Dothraki.",
+      "raw_text": "Joe Naufahu as Khal Moro , a warlord of the Dothraki.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vasily Milutin"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Souad Faress",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Souad_Faress"
+      ],
+      "character": "High Priestess",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/High_Priestess_(Oathbreaker)"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Dosh_Khaleen"
+      ],
+      "description": "the High Priestess , the leader of the Dosh Khaleen .",
+      "raw_text": "Souad Faress as the High Priestess , the leader of the Dosh Khaleen .",
+      "mapping_status": "mapped",
+      "mapped_to": "Vera Dashkova"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Hannah John-Kamen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Hannah_John-Kamen"
+      ],
+      "character": "Ornela",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ornela"
+      ],
+      "related_links": [],
+      "description": "a member of the Dosh Khaleen .",
+      "raw_text": "Hannah John-Kamen as Ornela , a member of the Dosh Khaleen .",
+      "mapping_status": "mapped",
+      "mapped_to": "Yaroslava Naryshkina"
+    },
+    {
+      "group": "In Vaes Dothrak",
+      "subgroup": "",
+      "actor": "Staz Nair",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Staz_Nair"
+      ],
+      "character": "Qhono",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Qhono"
+      ],
+      "related_links": [],
+      "description": "a Dothraki warrior.",
+      "raw_text": "Staz Nair as Qhono , a Dothraki warrior.",
+      "mapping_status": "mapped",
+      "mapped_to": "Viktor Obolensky"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Harry Lloyd",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Harry_Lloyd"
+      ],
+      "character": "Viserys Targaryen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Viserys_Targaryen_(son_of_Aerys_II)"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/House_Targaryen",
+        "https://gameofthrones.fandom.com/wiki/Iron_Throne"
+      ],
+      "description": "an exiled Targaryen claimant to the Iron Throne .",
+      "raw_text": "Harry Lloyd as Viserys Targaryen , an exiled Targaryen claimant to the Iron Throne .",
+      "mapping_status": "mapped",
+      "mapped_to": "Vladimir Romanov"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Emilia Clarke",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Emilia_Clarke"
+      ],
+      "character": "Daenerys Targaryen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Daenerys_Targaryen"
+      ],
+      "related_links": [],
+      "description": "claimant to the Iron Throne.",
+      "raw_text": "Emilia Clarke as Daenerys Targaryen , claimant to the Iron Throne.",
+      "mapping_status": "mapped",
+      "mapped_to": "Daria Romanova"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Iain Glen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Iain_Glen"
+      ],
+      "character": "Jorah Mormont",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Jorah_Mormont"
+      ],
+      "related_links": [],
+      "description": "a knight of Westeros, exiled by Lord Eddard Stark.",
+      "raw_text": "Iain Glen as Ser Jorah Mormont , a knight of Westeros, exiled by Lord Eddard Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Vsevolod Mamonov"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Roger Allam",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Roger_Allam"
+      ],
+      "character": "Illyrio Mopatis",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Illyrio_Mopatis"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Free_Cities",
+        "https://gameofthrones.fandom.com/wiki/Pentos"
+      ],
+      "description": "a magister of the Free City of Pentos .",
+      "raw_text": "Roger Allam as Illyrio Mopatis , a magister of the Free City of Pentos .",
+      "mapping_status": "mapped",
+      "mapped_to": "Yakov Orlov"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Mia Soteriou",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mia_Soteriou"
+      ],
+      "character": "Mirri Maz Duur",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mirri_Maz_Duur"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Lhazareen"
+      ],
+      "description": "a healer of the Lhazareen people.",
+      "raw_text": "Mia Soteriou as Mirri Maz Duur , a healer of the Lhazareen people.",
+      "mapping_status": "mapped",
+      "mapped_to": "Mariya Dolgorukova"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Mark Gatiss",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mark_Gatiss"
+      ],
+      "character": "Tycho Nestoris",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Tycho_Nestoris"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Iron_Bank_of_Braavos"
+      ],
+      "description": "a representative of the Iron Bank of Braavos .",
+      "raw_text": "Mark Gatiss as Tycho Nestoris , a representative of the Iron Bank of Braavos .",
+      "mapping_status": "mapped",
+      "mapped_to": "Yaroslav Naryshkin"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Gary Oliver",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gary_Oliver"
+      ],
+      "character": "Ternesio Terys",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Ternesio_Terys"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Braavos"
+      ],
+      "description": "a trader from Braavos .",
+      "raw_text": "Gary Oliver as Ternesio Terys , a trader from Braavos .",
+      "mapping_status": "mapped",
+      "mapped_to": "Terenty Tatischev"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Faye Marsay",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Faye_Marsay"
+      ],
+      "character": "Waif",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Waif"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Faceless_Men"
+      ],
+      "description": "the Waif , an acolyte of the Faceless Men .",
+      "raw_text": "Faye Marsay as the Waif , an acolyte of the Faceless Men .",
+      "mapping_status": "mapped",
+      "mapped_to": "Zinaida Panina"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Richard E. Grant",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Richard_E._Grant"
+      ],
+      "character": "Izembaro",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Izembaro"
+      ],
+      "related_links": [],
+      "description": "leader of a Braavosi theater troupe.",
+      "raw_text": "Richard E. Grant as Izembaro , leader of a Braavosi theater troupe.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yegor Potemkin"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Essie Davis",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Essie_Davis"
+      ],
+      "character": "Lady Crane",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lady_Crane"
+      ],
+      "related_links": [],
+      "description": "Crane , the leading actress in Izembaro's theater troupe.",
+      "raw_text": "Essie Davis as Lady Crane , the leading actress in Izembaro's theater troupe.",
+      "mapping_status": "mapped",
+      "mapped_to": "Zoya Razumovskaya"
+    },
+    {
+      "group": "In the Free Cities",
+      "subgroup": "",
+      "actor": "Marc Rissmann",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Marc_Rissmann"
+      ],
+      "character": "Harry Strickland",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Harry_Strickland"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Golden_Company"
+      ],
+      "description": "the commander of the Golden Company .",
+      "raw_text": "Marc Rissmann as Harry Strickland , the commander of the Golden Company .",
+      "mapping_status": "mapped",
+      "mapped_to": "Yuriy Repnin"
+    },
+    {
+      "group": "In Qarth",
+      "subgroup": "",
+      "actor": "Nonso Anozie",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Nonso_Anozie"
+      ],
+      "character": "Xaro Xhoan Daxos",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Xaro_Xhoan_Daxos"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Qarth"
+      ],
+      "description": "a merchant lord of Qarth .",
+      "raw_text": "Nonso Anozie as Xaro Xhoan Daxos , a merchant lord of Qarth .",
+      "mapping_status": "mapped",
+      "mapped_to": "Platon Apraksin"
+    },
+    {
+      "group": "In Qarth",
+      "subgroup": "",
+      "actor": "Ian Hanmore",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ian_Hanmore"
+      ],
+      "character": "Pyat Pree",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Pyat_Pree"
+      ],
+      "related_links": [],
+      "description": "a warlock of Qarth.",
+      "raw_text": "Ian Hanmore as Pyat Pree , a warlock of Qarth.",
+      "mapping_status": "mapped",
+      "mapped_to": "Anton Suvorov"
+    },
+    {
+      "group": "In Qarth",
+      "subgroup": "",
+      "actor": "Laura Pradelska",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Laura_Pradelska"
+      ],
+      "character": "Quaithe",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Quaithe"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Shadow_Lands"
+      ],
+      "description": "a priestess of the Shadow Lands resident in Qarth.",
+      "raw_text": "Laura Pradelska as Quaithe , a priestess of the Shadow Lands resident in Qarth.",
+      "mapping_status": "mapped",
+      "mapped_to": "Agrafena Trubetskaya"
+    },
+    {
+      "group": "In Qarth",
+      "subgroup": "",
+      "actor": "Nicholas Blane",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Nicholas_Blane"
+      ],
+      "character": "Spice King",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Spice_King"
+      ],
+      "related_links": [],
+      "description": "the Spice King , the leader of the spice merchants of Qarth.",
+      "raw_text": "Nicholas Blane as the Spice King , the leader of the spice merchants of Qarth.",
+      "mapping_status": "mapped",
+      "mapped_to": "Savva Morozov"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Nathalie Emmanuel",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Nathalie_Emmanuel"
+      ],
+      "character": "Missandei",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Missandei"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Astapor"
+      ],
+      "description": "a slave and translator working in the city of Astapor .",
+      "raw_text": "Nathalie Emmanuel as Missandei , a slave and translator working in the city of Astapor .",
+      "mapping_status": "mapped",
+      "mapped_to": "Aksinya Uvarova"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Jacob Anderson",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Jacob_Anderson"
+      ],
+      "character": "Grey Worm",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Grey_Worm"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Unsullied"
+      ],
+      "description": "a warrior-eunuch of the Unsullied .",
+      "raw_text": "Jacob Anderson as Grey Worm , a warrior-eunuch of the Unsullied .",
+      "mapping_status": "mapped",
+      "mapped_to": "Semyon Bezborodko"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Dan Hildebrand",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Dan_Hildebrand"
+      ],
+      "character": "Kraznys mo Nakloz",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Kraznys_mo_Nakloz"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Astapor"
+      ],
+      "description": "a slave-trader and immensely rich merchant in Astapor .",
+      "raw_text": "Dan Hildebrand as Kraznys mo Nakloz , a slave-trader and immensely rich merchant in Astapor .",
+      "mapping_status": "mapped",
+      "mapped_to": "Kirill Naryshkin"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Clifford Barry",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Clifford_Barry"
+      ],
+      "character": "Greizhen mo Ullhor",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Greizhen_mo_Ullhor"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Good_Masters",
+        "https://gameofthrones.fandom.com/wiki/Astapor"
+      ],
+      "description": "one of the Good Masters of Astapor .",
+      "raw_text": "Clifford Barry as Greizhen mo Ullhor , one of the Good Masters of Astapor .",
+      "mapping_status": "mapped",
+      "mapped_to": "Gavriil Uvarov"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "George Georgiou",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/George_Georgiou"
+      ],
+      "character": "Razdal mo Eraz",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Razdal_mo_Eraz"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Yunkai"
+      ],
+      "description": "a slave-trader and one of the Wise Masters of Yunkai .",
+      "raw_text": "George Georgiou as Razdal mo Eraz , a slave-trader and one of the Wise Masters of Yunkai .",
+      "mapping_status": "mapped",
+      "mapped_to": "Ratmir Rumyantsev"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Ed Skrein (Season 3)/ Michiel Huisman (Seasons 4-6)",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ed_Skrein",
+        "https://gameofthrones.fandom.com/wiki/Michiel_Huisman"
+      ],
+      "character": "Daario Naharis",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Daario_Naharis"
+      ],
+      "related_links": [],
+      "description": "a charismatic mercenary.",
+      "raw_text": "Ed Skrein (Season 3)/ Michiel Huisman (Seasons 4-6) as Daario Naharis , a charismatic mercenary.",
+      "mapping_status": "mapped",
+      "mapped_to": "Daniil Bagration"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Mark Killeen",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Mark_Killeen"
+      ],
+      "character": "Mero",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mero"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Braavos"
+      ],
+      "description": "a mercenary commander from Braavos nicknamed \"The Titan's Bastard.\"",
+      "raw_text": "Mark Killeen as Mero , a mercenary commander from Braavos nicknamed \"The Titan's Bastard.\"",
+      "mapping_status": "mapped",
+      "mapped_to": "Demyan Dashkov"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Ramon Tikaram",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ramon_Tikaram"
+      ],
+      "character": "Prendahl na Ghezn",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Prendahl_na_Ghezn"
+      ],
+      "related_links": [],
+      "description": "a mercenary commander.",
+      "raw_text": "Ramon Tikaram as Prendahl na Ghezn , a mercenary commander.",
+      "mapping_status": "mapped",
+      "mapped_to": "Prokhor Gagarin"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Joel Fry",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Joel_Fry"
+      ],
+      "character": "Hizdahr zo Loraq",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hizdahr_zo_Loraq"
+      ],
+      "related_links": [],
+      "description": "a master of Meereen.",
+      "raw_text": "Joel Fry as Hizdahr zo Loraq , a master of Meereen.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gleb Bagration"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Reece Noi",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Reece_Noi"
+      ],
+      "character": "Mossador",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Mossador"
+      ],
+      "related_links": [],
+      "description": "a slave in Meereen.",
+      "raw_text": "Reece Noi as Mossador , a slave in Meereen.",
+      "mapping_status": "mapped",
+      "mapped_to": "Dmitry Derzhavin"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Adewale Akinnuoye-Agbaje",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Adewale_Akinnuoye-Agbaje"
+      ],
+      "character": "Malko",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Malko"
+      ],
+      "related_links": [],
+      "description": "a pirate.",
+      "raw_text": "Adewale Akinnuoye-Agbaje as Malko , a pirate.",
+      "mapping_status": "mapped",
+      "mapped_to": "Egor Dolgorukov"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Enzo Cilenti",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Enzo_Cilenti"
+      ],
+      "character": "Yezzan zo Qaggaz",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Yezzan_zo_Qaggaz"
+      ],
+      "related_links": [],
+      "description": "an extremely wealthy slave-trader in Meereen.",
+      "raw_text": "Enzo Cilenti as Yezzan zo Qaggaz , an extremely wealthy slave-trader in Meereen.",
+      "mapping_status": "mapped",
+      "mapped_to": "Yegor Vorontsov"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Meena Rayann",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Meena_Rayann"
+      ],
+      "character": "Vala",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Vala"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Sons_of_the_Harpy"
+      ],
+      "description": "a female prostitute and an associate of the Sons of the Harpy .",
+      "raw_text": "Meena Rayann as Vala , a female prostitute and an associate of the Sons of the Harpy .",
+      "mapping_status": "mapped",
+      "mapped_to": "Alexandra Gagarina"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Gerald Lepkowski",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Gerald_Lepkowski"
+      ],
+      "character": "Zanrush",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Zanrush"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Red_priest"
+      ],
+      "description": "a red priest based in Meereen.",
+      "raw_text": "Gerald Lepkowski as Zanrush , a red priest based in Meereen.",
+      "mapping_status": "mapped",
+      "mapped_to": "Emelyan Golitsyn"
+    },
+    {
+      "group": "In Slaver's Bay",
+      "subgroup": "",
+      "actor": "Ania Bukstein",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Ania_Bukstein"
+      ],
+      "character": "Kinvara",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Kinvara"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/High_Priest_(Lord_of_Light)",
+        "https://gameofthrones.fandom.com/wiki/Red_Temple",
+        "https://gameofthrones.fandom.com/wiki/Volantis"
+      ],
+      "description": "the High Priestess of the Red Temple of Volantis .",
+      "raw_text": "Ania Bukstein as Kinvara , the High Priestess of the Red Temple of Volantis .",
+      "mapping_status": "mapped",
+      "mapped_to": "Alena Karamzina"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Robert Aramayo and Sebastian Croft",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Robert_Aramayo",
+        "https://gameofthrones.fandom.com/wiki/Sebastian_Croft"
+      ],
+      "character": "Eddard Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Eddard_Stark"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Robert Aramayo and Sebastian Croft as Eddard Stark .",
+      "mapping_status": "mapped",
+      "mapped_to": "Eduard Volkonsky"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Aisling Franciosi and Cordelia Hill",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Aisling_Franciosi",
+        "https://gameofthrones.fandom.com/wiki/Cordelia_Hill"
+      ],
+      "character": "Lyanna Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Lyanna_Stark"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Aisling Franciosi and Cordelia Hill as Lyanna Stark .",
+      "mapping_status": "mapped",
+      "mapped_to": "Anastasia Volkonskaya"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Wilf Scolding",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Wilf_Scolding"
+      ],
+      "character": "Rhaegar Targaryen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rhaegar_Targaryen"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Wilf Scolding as Prince Rhaegar Targaryen .",
+      "mapping_status": "mapped",
+      "mapped_to": "Fedor Romanov"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "David Rintoul",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/David_Rintoul"
+      ],
+      "character": "Aerys II Targaryen",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Aerys_II_Targaryen"
+      ],
+      "related_links": [],
+      "description": "commonly called \"the Mad King.\"",
+      "raw_text": "David Rintoul as King Aerys II Targaryen , commonly called \"the Mad King.\"",
+      "mapping_status": "mapped",
+      "mapped_to": "Andrey II Romanov"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Matteo Elezi",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Matteo_Elezi"
+      ],
+      "character": "Benjen Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Benjen_Stark"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Matteo Elezi as Benjen Stark .",
+      "mapping_status": "mapped",
+      "mapped_to": "Andrei Volkonsky"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Luke Roberts",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Luke_Roberts"
+      ],
+      "character": "Arthur Dayne",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Arthur_Dayne"
+      ],
+      "related_links": [],
+      "description": "the Sword of the Morning.",
+      "raw_text": "Luke Roberts as Ser Arthur Dayne , the Sword of the Morning.",
+      "mapping_status": "mapped",
+      "mapped_to": "Filipp Kornilov"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Eddie Eyre",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Eddie_Eyre"
+      ],
+      "character": "Gerold Hightower",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Gerold_Hightower"
+      ],
+      "related_links": [
+        "https://gameofthrones.fandom.com/wiki/Aerys_II_Targaryen"
+      ],
+      "description": "Lord Commander of Aerys II Targaryen 's Kingsguard.",
+      "raw_text": "Eddie Eyre as Ser Gerold Hightower , Lord Commander of Aerys II Targaryen 's Kingsguard.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gavriil Obolensky"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Leo Woodruff",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Leo_Woodruff"
+      ],
+      "character": "Howland Reed",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Howland_Reed"
+      ],
+      "related_links": [],
+      "description": "the father of Meera and Jojen Reed.",
+      "raw_text": "Leo Woodruff as Lord Howland Reed , the father of Meera and Jojen Reed.",
+      "mapping_status": "mapped",
+      "mapped_to": "Georgy Rzhevsky"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Sam Coleman",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Sam_Coleman"
+      ],
+      "character": "Hodor",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Hodor"
+      ],
+      "related_links": [],
+      "description": "who was known as a boy called Wylis.",
+      "raw_text": "Sam Coleman as Hodor , who was known as a boy called Wylis.",
+      "mapping_status": "mapped",
+      "mapped_to": "Afanasy Bestuzhev"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Annette Tierney",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Annette_Tierney"
+      ],
+      "character": "Old Nan",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Old_Nan"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Annette Tierney as Old Nan .",
+      "mapping_status": "mapped",
+      "mapped_to": "Agrafena Bagration"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Fergus Leathem",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Fergus_Leathem"
+      ],
+      "character": "Rodrik Cassel",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rodrik_Cassel"
+      ],
+      "related_links": [],
+      "description": ".",
+      "raw_text": "Fergus Leathem as Rodrik Cassel .",
+      "mapping_status": "mapped",
+      "mapped_to": "Anton Karamzin"
+    },
+    {
+      "group": "In Bran's visions",
+      "subgroup": "",
+      "actor": "Wayne Foskett",
+      "actor_links": [
+        "https://gameofthrones.fandom.com/wiki/Wayne_Foskett"
+      ],
+      "character": "Rickard Stark",
+      "character_links": [
+        "https://gameofthrones.fandom.com/wiki/Rickard_Stark"
+      ],
+      "related_links": [],
+      "description": "the father of Brandon, Eddard, Lyanna and Benjen Stark.",
+      "raw_text": "Wayne Foskett as Lord Rickard Stark , the father of Brandon, Eddard, Lyanna and Benjen Stark.",
+      "mapping_status": "mapped",
+      "mapped_to": "Gleb Volkonsky"
+    }
+  ]
+}

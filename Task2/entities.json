@@ -1,0 +1,594 @@
+{
+  "characters": [
+    {
+      "name": "Arya Stark",
+      "count": 1,
+      "source_files": [
+        "arya-stark.md"
+      ]
+    },
+    {
+      "name": "Bran Stark",
+      "count": 1,
+      "source_files": [
+        "bran-stark.md"
+      ]
+    },
+    {
+      "name": "Cersei Lannister",
+      "count": 1,
+      "source_files": [
+        "cersei-lannister.md"
+      ]
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "count": 1,
+      "source_files": [
+        "daenerys-targaryen.md"
+      ]
+    },
+    {
+      "name": "Eddard Stark",
+      "count": 1,
+      "source_files": [
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "Jaime Lannister",
+      "count": 1,
+      "source_files": [
+        "jaime-lannister.md"
+      ]
+    },
+    {
+      "name": "Jon Snow",
+      "count": 1,
+      "source_files": [
+        "jon-snow.md"
+      ]
+    },
+    {
+      "name": "Sansa Stark",
+      "count": 1,
+      "source_files": [
+        "sansa-stark.md"
+      ]
+    },
+    {
+      "name": "Theon Greyjoy",
+      "count": 1,
+      "source_files": [
+        "theon-greyjoy.md"
+      ]
+    },
+    {
+      "name": "Tyrion Lannister",
+      "count": 1,
+      "source_files": [
+        "tyrion-lannister.md"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "name": "Braavos",
+      "count": 1,
+      "source_files": [
+        "braavos.md"
+      ]
+    },
+    {
+      "name": "Dragonstone",
+      "count": 1,
+      "source_files": [
+        "dragonstone.md"
+      ]
+    },
+    {
+      "name": "King's Landing",
+      "count": 1,
+      "source_files": [
+        "king-27s-landing.md"
+      ]
+    },
+    {
+      "name": "Meereen",
+      "count": 1,
+      "source_files": [
+        "meereen.md"
+      ]
+    },
+    {
+      "name": "Oldtown",
+      "count": 1,
+      "source_files": [
+        "oldtown.md"
+      ]
+    },
+    {
+      "name": "The North",
+      "count": 1,
+      "source_files": [
+        "the-north.md"
+      ]
+    },
+    {
+      "name": "Wall",
+      "count": 1,
+      "source_files": [
+        "wall.md"
+      ]
+    },
+    {
+      "name": "Winterfell",
+      "count": 1,
+      "source_files": [
+        "winterfell.md"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "Battle of the Bastards",
+      "count": 1,
+      "source_files": [
+        "battle-of-the-bastards.md"
+      ]
+    },
+    {
+      "name": "Battle of the Blackwater",
+      "count": 1,
+      "source_files": [
+        "battle-of-the-blackwater.md"
+      ]
+    },
+    {
+      "name": "Red Wedding",
+      "count": 1,
+      "source_files": [
+        "red-wedding.md"
+      ]
+    },
+    {
+      "name": "War of the Five Kings",
+      "count": 1,
+      "source_files": [
+        "war-of-the-five-kings.md"
+      ]
+    }
+  ],
+  "other_terms": [
+    {
+      "name": "Dragons",
+      "count": 1,
+      "source_files": [
+        "dragons.md"
+      ]
+    },
+    {
+      "name": "Faceless Men",
+      "count": 1,
+      "source_files": [
+        "faceless-men.md"
+      ]
+    },
+    {
+      "name": "House Baratheon",
+      "count": 1,
+      "source_files": [
+        "house-baratheon.md"
+      ]
+    },
+    {
+      "name": "House Greyjoy",
+      "count": 1,
+      "source_files": [
+        "house-greyjoy.md"
+      ]
+    },
+    {
+      "name": "House Lannister",
+      "count": 1,
+      "source_files": [
+        "house-lannister.md"
+      ]
+    },
+    {
+      "name": "House Martell",
+      "count": 1,
+      "source_files": [
+        "house-martell.md"
+      ]
+    },
+    {
+      "name": "House Stark",
+      "count": 1,
+      "source_files": [
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "House Targaryen",
+      "count": 1,
+      "source_files": [
+        "house-targaryen.md"
+      ]
+    },
+    {
+      "name": "House Tyrell",
+      "count": 1,
+      "source_files": [
+        "house-tyrell.md"
+      ]
+    },
+    {
+      "name": "Iron Throne",
+      "count": 1,
+      "source_files": [
+        "iron-throne.md"
+      ]
+    },
+    {
+      "name": "Night's Watch",
+      "count": 1,
+      "source_files": [
+        "night-27s-watch.md"
+      ]
+    },
+    {
+      "name": "Valyrian steel",
+      "count": 1,
+      "source_files": [
+        "valyrian-steel.md"
+      ]
+    },
+    {
+      "name": "White Walkers",
+      "count": 1,
+      "source_files": [
+        "white-walkers.md"
+      ]
+    },
+    {
+      "name": "Wildfire",
+      "count": 1,
+      "source_files": [
+        "wildfire.md"
+      ]
+    }
+  ],
+  "mentioned_candidates": [
+    {
+      "name": "Seven Kingdoms",
+      "count": 80,
+      "source_files": [
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "Castle Black",
+      "count": 79,
+      "source_files": [
+        "battle-of-the-bastards.md",
+        "bran-stark.md",
+        "house-stark.md",
+        "house-targaryen.md",
+        "jon-snow.md"
+      ]
+    },
+    {
+      "name": "Night King",
+      "count": 79,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "bran-stark.md",
+        "daenerys-targaryen.md",
+        "house-greyjoy.md"
+      ]
+    },
+    {
+      "name": "Red Keep",
+      "count": 69,
+      "source_files": [
+        "arya-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "King in the North",
+      "count": 56,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md",
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "Robb Stark",
+      "count": 54,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "eddard-stark.md",
+        "house-greyjoy.md"
+      ]
+    },
+    {
+      "name": "Bran and Rickon",
+      "count": 47,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "eddard-stark.md",
+        "house-martell.md",
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "Casterly Rock",
+      "count": 47,
+      "source_files": [
+        "battle-of-the-blackwater.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md",
+        "house-greyjoy.md"
+      ]
+    },
+    {
+      "name": "Iron Islands",
+      "count": 45,
+      "source_files": [
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "house-greyjoy.md",
+        "house-martell.md"
+      ]
+    },
+    {
+      "name": "Tywin Lannister",
+      "count": 45,
+      "source_files": [
+        "arya-stark.md",
+        "braavos.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "house-lannister.md"
+      ]
+    },
+    {
+      "name": "Robert Baratheon",
+      "count": 41,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md"
+      ]
+    },
+    {
+      "name": "Mad King",
+      "count": 40,
+      "source_files": [
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md",
+        "house-martell.md"
+      ]
+    },
+    {
+      "name": "Ned Stark",
+      "count": 39,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "Roose Bolton",
+      "count": 38,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "eddard-stark.md",
+        "house-greyjoy.md",
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "Catelyn Stark",
+      "count": 37,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "High Sparrow",
+      "count": 37,
+      "source_files": [
+        "arya-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md",
+        "house-lannister.md"
+      ]
+    },
+    {
+      "name": "Song of Ice and Fire",
+      "count": 37,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "battle-of-the-blackwater.md",
+        "braavos.md",
+        "bran-stark.md"
+      ]
+    },
+    {
+      "name": "Wiki of Ice and Fire",
+      "count": 37,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "battle-of-the-blackwater.md",
+        "braavos.md",
+        "bran-stark.md"
+      ]
+    },
+    {
+      "name": "Free Cities",
+      "count": 35,
+      "source_files": [
+        "braavos.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md",
+        "house-martell.md"
+      ]
+    },
+    {
+      "name": "Small Council",
+      "count": 35,
+      "source_files": [
+        "braavos.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "dragonstone.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "Winter Is Coming",
+      "count": 35,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "eddard-stark.md"
+      ]
+    },
+    {
+      "name": "Stannis Baratheon",
+      "count": 34,
+      "source_files": [
+        "battle-of-the-bastards.md",
+        "battle-of-the-blackwater.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "dragonstone.md"
+      ]
+    },
+    {
+      "name": "Grey Worm",
+      "count": 33,
+      "source_files": [
+        "daenerys-targaryen.md",
+        "dragonstone.md",
+        "house-targaryen.md",
+        "jaime-lannister.md",
+        "jon-snow.md"
+      ]
+    },
+    {
+      "name": "Hand of the King",
+      "count": 33,
+      "source_files": [
+        "arya-stark.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "eddard-stark.md",
+        "house-baratheon.md"
+      ]
+    },
+    {
+      "name": "Warden of the North",
+      "count": 33,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "bran-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md"
+      ]
+    },
+    {
+      "name": "White Walker",
+      "count": 33,
+      "source_files": [
+        "bran-stark.md",
+        "jon-snow.md",
+        "night-27s-watch.md",
+        "valyrian-steel.md",
+        "white-walkers.md"
+      ]
+    },
+    {
+      "name": "Ramsay Bolton",
+      "count": 32,
+      "source_files": [
+        "battle-of-the-bastards.md",
+        "bran-stark.md",
+        "eddard-stark.md",
+        "house-greyjoy.md",
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "Eyed Raven",
+      "count": 31,
+      "source_files": [
+        "bran-stark.md",
+        "house-stark.md",
+        "sansa-stark.md",
+        "white-walkers.md",
+        "wildfire.md"
+      ]
+    },
+    {
+      "name": "Battle of Winterfell",
+      "count": 30,
+      "source_files": [
+        "arya-stark.md",
+        "battle-of-the-bastards.md",
+        "house-baratheon.md",
+        "house-greyjoy.md",
+        "house-stark.md"
+      ]
+    },
+    {
+      "name": "Second Sons",
+      "count": 30,
+      "source_files": [
+        "arya-stark.md",
+        "cersei-lannister.md",
+        "daenerys-targaryen.md",
+        "house-lannister.md",
+        "house-targaryen.md"
+      ]
+    }
+  ]
+}

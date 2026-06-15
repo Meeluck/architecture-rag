@@ -1,0 +1,475 @@
+{
+  "source_dir": "Task2/knowledge_base",
+  "output_dir": "Task2/knowledge_base_filtered",
+  "files": [
+    {
+      "source_file": "Task2/knowledge_base/anfield-derby.md",
+      "output_file": "Task2/knowledge_base_filtered/anfield-derby.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 10,
+      "original_lines": 109,
+      "filtered_lines": 98
+    },
+    {
+      "source_file": "Task2/knowledge_base/anfield-guard.md",
+      "output_file": "Task2/knowledge_base_filtered/anfield-guard.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 8,
+      "original_lines": 236,
+      "filtered_lines": 227
+    },
+    {
+      "source_file": "Task2/knowledge_base/anfield.md",
+      "output_file": "Task2/knowledge_base_filtered/anfield.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 30,
+      "original_lines": 178,
+      "filtered_lines": 147
+    },
+    {
+      "source_file": "Task2/knowledge_base/arina-volkonskaya.md",
+      "output_file": "Task2/knowledge_base_filtered/arina-volkonskaya.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 25,
+      "original_lines": 527,
+      "filtered_lines": 501
+    },
+    {
+      "source_file": "Task2/knowledge_base/azteca.md",
+      "output_file": "Task2/knowledge_base_filtered/azteca.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 18,
+      "original_lines": 100,
+      "filtered_lines": 81
+    },
+    {
+      "source_file": "Task2/knowledge_base/baltic-alloy.md",
+      "output_file": "Task2/knowledge_base_filtered/baltic-alloy.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 11,
+      "original_lines": 87,
+      "filtered_lines": 75
+    },
+    {
+      "source_file": "Task2/knowledge_base/boris-volkonsky.md",
+      "output_file": "Task2/knowledge_base_filtered/boris-volkonsky.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 29,
+      "original_lines": 329,
+      "filtered_lines": 299
+    },
+    {
+      "source_file": "Task2/knowledge_base/camp-nou-district.md",
+      "output_file": "Task2/knowledge_base_filtered/camp-nou-district.md",
+      "removed_sections": {
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 4,
+      "original_lines": 133,
+      "filtered_lines": 128
+    },
+    {
+      "source_file": "Task2/knowledge_base/daria-romanova.md",
+      "output_file": "Task2/knowledge_base_filtered/daria-romanova.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 3,
+      "removed_lines": 32,
+      "original_lines": 672,
+      "filtered_lines": 639
+    },
+    {
+      "source_file": "Task2/knowledge_base/eduard-volkonsky.md",
+      "output_file": "Task2/knowledge_base_filtered/eduard-volkonsky.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 30,
+      "original_lines": 369,
+      "filtered_lines": 338
+    },
+    {
+      "source_file": "Task2/knowledge_base/emerald-pyro.md",
+      "output_file": "Task2/knowledge_base_filtered/emerald-pyro.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 6,
+      "original_lines": 61,
+      "filtered_lines": 54
+    },
+    {
+      "source_file": "Task2/knowledge_base/fire-falcons.md",
+      "output_file": "Task2/knowledge_base_filtered/fire-falcons.md",
+      "removed_sections": {
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 1,
+      "original_lines": 16,
+      "filtered_lines": 14
+    },
+    {
+      "source_file": "Task2/knowledge_base/five-stadiums-cup.md",
+      "output_file": "Task2/knowledge_base_filtered/five-stadiums-cup.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 7,
+      "original_lines": 280,
+      "filtered_lines": 272
+    },
+    {
+      "source_file": "Task2/knowledge_base/frost-wanderers.md",
+      "output_file": "Task2/knowledge_base_filtered/frost-wanderers.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 11,
+      "original_lines": 244,
+      "filtered_lines": 232
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-golitsyn.md",
+      "output_file": "Task2/knowledge_base_filtered/house-golitsyn.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 21,
+      "original_lines": 236,
+      "filtered_lines": 214
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-orlov.md",
+      "output_file": "Task2/knowledge_base_filtered/house-orlov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 20,
+      "original_lines": 212,
+      "filtered_lines": 191
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-romanov.md",
+      "output_file": "Task2/knowledge_base_filtered/house-romanov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 19,
+      "original_lines": 603,
+      "filtered_lines": 583
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-sheremetev.md",
+      "output_file": "Task2/knowledge_base_filtered/house-sheremetev.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 22,
+      "original_lines": 321,
+      "filtered_lines": 298
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-stroganov.md",
+      "output_file": "Task2/knowledge_base_filtered/house-stroganov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 20,
+      "original_lines": 163,
+      "filtered_lines": 142
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-volkonsky.md",
+      "output_file": "Task2/knowledge_base_filtered/house-volkonsky.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 20,
+      "original_lines": 333,
+      "filtered_lines": 312
+    },
+    {
+      "source_file": "Task2/knowledge_base/house-yusupov.md",
+      "output_file": "Task2/knowledge_base_filtered/house-yusupov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 20,
+      "original_lines": 252,
+      "filtered_lines": 231
+    },
+    {
+      "source_file": "Task2/knowledge_base/ivan-morozov.md",
+      "output_file": "Task2/knowledge_base_filtered/ivan-morozov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 2,
+      "removed_lines": 43,
+      "original_lines": 699,
+      "filtered_lines": 655
+    },
+    {
+      "source_file": "Task2/knowledge_base/kira-sheremeteva.md",
+      "output_file": "Task2/knowledge_base_filtered/kira-sheremeteva.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 40,
+      "original_lines": 565,
+      "filtered_lines": 524
+    },
+    {
+      "source_file": "Task2/knowledge_base/la-bombonera.md",
+      "output_file": "Task2/knowledge_base_filtered/la-bombonera.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 28,
+      "original_lines": 117,
+      "filtered_lines": 88
+    },
+    {
+      "source_file": "Task2/knowledge_base/maracana-night.md",
+      "output_file": "Task2/knowledge_base_filtered/maracana-night.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 8,
+      "original_lines": 200,
+      "filtered_lines": 191
+    },
+    {
+      "source_file": "Task2/knowledge_base/maracana.md",
+      "output_file": "Task2/knowledge_base_filtered/maracana.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 9,
+      "original_lines": 86,
+      "filtered_lines": 76
+    },
+    {
+      "source_file": "Task2/knowledge_base/nameless-brigade.md",
+      "output_file": "Task2/knowledge_base_filtered/nameless-brigade.md",
+      "removed_sections": {
+        "external links": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 5,
+      "original_lines": 57,
+      "filtered_lines": 51
+    },
+    {
+      "source_file": "Task2/knowledge_base/san-siro.md",
+      "output_file": "Task2/knowledge_base_filtered/san-siro.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 10,
+      "original_lines": 171,
+      "filtered_lines": 160
+    },
+    {
+      "source_file": "Task2/knowledge_base/silver-tribune.md",
+      "output_file": "Task2/knowledge_base_filtered/silver-tribune.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 8,
+      "original_lines": 138,
+      "filtered_lines": 129
+    },
+    {
+      "source_file": "Task2/knowledge_base/sofia-volkonskaya.md",
+      "output_file": "Task2/knowledge_base_filtered/sofia-volkonskaya.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 41,
+      "original_lines": 616,
+      "filtered_lines": 574
+    },
+    {
+      "source_file": "Task2/knowledge_base/sudtribune.md",
+      "output_file": "Task2/knowledge_base_filtered/sudtribune.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 11,
+      "original_lines": 80,
+      "filtered_lines": 68
+    },
+    {
+      "source_file": "Task2/knowledge_base/terenty-sheremetev.md",
+      "output_file": "Task2/knowledge_base_filtered/terenty-sheremetev.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 33,
+      "original_lines": 728,
+      "filtered_lines": 694
+    },
+    {
+      "source_file": "Task2/knowledge_base/timofey-stroganov.md",
+      "output_file": "Task2/knowledge_base_filtered/timofey-stroganov.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 29,
+      "original_lines": 520,
+      "filtered_lines": 490
+    },
+    {
+      "source_file": "Task2/knowledge_base/wembley-final.md",
+      "output_file": "Task2/knowledge_base_filtered/wembley-final.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 10,
+      "original_lines": 92,
+      "filtered_lines": 81
+    },
+    {
+      "source_file": "Task2/knowledge_base/wembley.md",
+      "output_file": "Task2/knowledge_base_filtered/wembley.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 0,
+      "removed_lines": 20,
+      "original_lines": 163,
+      "filtered_lines": 142
+    },
+    {
+      "source_file": "Task2/knowledge_base/yakov-sheremetev.md",
+      "output_file": "Task2/knowledge_base_filtered/yakov-sheremetev.md",
+      "removed_sections": {
+        "external links": 1,
+        "gallery": 1,
+        "references": 1
+      },
+      "removed_notice_blocks": 1,
+      "removed_lines": 30,
+      "original_lines": 572,
+      "filtered_lines": 541
+    }
+  ],
+  "summary": {
+    "files_processed": 36,
+    "removed_sections": {
+      "external links": 34,
+      "gallery": 29,
+      "references": 36
+    },
+    "removed_notice_blocks": 14,
+    "removed_lines": 689
+  }
+}
